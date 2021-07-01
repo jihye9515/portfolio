@@ -1,0 +1,23 @@
+div.ct01 {
+  height: 900px;
+}
+
+div.ct01 section {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.ct01 section .rightImg {
+  width: calc(50% - 20px);
+}
+
+div.ct01 section .rightImg .image {
+  height: 120px;
+}
+
+div.ct01 section .rightImg .image:hover {
+  width: calc(33.33% - 10px);
+  height: 130px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=experience_mx1080.css.map */

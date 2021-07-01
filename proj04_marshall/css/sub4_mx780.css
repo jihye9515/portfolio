@@ -1,0 +1,91 @@
+
+div.recode section article .mnImg{
+    width: 80%;
+    margin: 0 auto;
+    height: 480px;
+    float: none;
+}
+
+div.recode section article .mnImg .imgGroup .image{
+    height: 480px;
+}
+div.recode .texts{
+    width: 100%;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+}
+div.recode .texts .textGroup{
+    width: 600%;
+    clear: both;
+}
+div.recode .texts .textGroup .text{
+    width: 16.66%;
+    float: left;
+    padding: 40px 70px;
+    
+}
+div.recode .texts .textGroup .text h4{
+    font-weight: 700; color: #000;
+}
+div.recode .texts .textGroup .text h4 i{
+    color: #f90;
+}
+div.recode .texts .textGroup .text h4:nth-of-type(2){
+    margin-top: 40px;
+}
+div.recode .texts .textGroup .text ul{
+    margin-top: 10px;
+}
+div.recode .texts .textGroup .text ul li{}
+div.recode .texts .textGroup .text p{
+    margin-top: 10px;
+}
+div.recode .texts .textGroup .text .btn{
+    margin-top: 40px;
+    text-align: center;
+}
+div.recode .texts .textGroup .text .btn button{}
+
+div.recode .thumImg{
+    width: 75%;
+    overflow: hidden;
+    padding-top: 40px;
+    margin: 0 auto;
+    
+}
+div.recode .thumImg .imgGroup{
+    width: 200%;
+    clear: both;
+}
+div.recode .thumImg .imgGroup .image{
+    width: calc(100% / 6 - 20px);
+    height: 160px; background-color: #ccc;
+    margin: 0 10px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+div.recode .thumImg .imgGroup .i1{background-image: url(../img/index_records_i1.jpg);}
+div.recode .thumImg .imgGroup .i2{background-image: url(../img/sub4_record_i2.jpg);
+background-position: 0 0;}
+div.recode .thumImg .imgGroup .i3{background-image: url(../img/sub4_record_i3.jpg);}
+div.recode .thumImg .imgGroup .i4{background-image: url(../img/sub4_record_i4.jpg);}
+div.recode .thumImg .imgGroup .i5{background-image: url(../img/sub4_record_i5.jpg);}
+div.recode .thumImg .imgGroup .i6{background-image: url(../img/sub4_record_i6.jpg);}
+
+div.recode .btns{
+    width: 110%;
+    position: absolute;
+    margin-left: -5%;
+    height: 40px;
+    top: 40%; 
+}
+
+div.recode section .btns button{
+    width: 40px; height: 40px; background-color: #ccc;
+    color: #000; border: 0;
+}
+div.recode .btns .Next{
+float: right;
+}

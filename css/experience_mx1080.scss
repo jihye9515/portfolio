@@ -1,0 +1,17 @@
+div.ct01{
+    height: 900px;
+    section{
+        justify-content: space-around;
+        .rightImg{
+            width: calc(50% - 20px);
+            .image{
+                height: 120px;
+                &:hover{
+                    width: calc(33.33% - 10px);
+                    height: 130px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

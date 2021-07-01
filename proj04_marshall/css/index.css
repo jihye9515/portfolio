@@ -1,0 +1,369 @@
+/* main */
+div.main .image{}
+div.main .i1{background-image: url(../img/index_main.jpg);}
+div.main .i2{background-image: url(../img/index_main2.jpg);}
+div.main .i3{background-image: url(../img/index_main3.jpg);}
+div.main .i4{background-image: url(../img/index_main4.jpg);}
+
+
+/*  banner 1 */
+div.b1{
+    height: 800px;
+    background-image: url(../img/index_banner\ 1_i.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+div.b1 .texts{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    height: 80px;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+div.b1 .texts h3{
+    font-weight: 700; font-size: 18px; line-height: 40px;
+}
+div.b1 .texts p{
+    font-size: 16px; line-height: 20px;
+}
+
+/* content 1 / Marshall Amplification */
+div.msAmpli{}
+div.msAmpli header{}
+div.msAmpli section{
+    display: flex;
+    margin-top: 80px;
+}
+div.msAmpli section .artGroup{
+    width: calc(50% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+}
+div.msAmpli section .artGroup article{
+    width: 50%;
+    height: 280px;
+    position: relative;
+}
+div.msAmpli section .artGroup .mainArt{
+    width: 100%;
+}
+div.msAmpli section .artGroup article .image{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+div.msAmpli section .artGroup article .texts{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 40px;
+}
+div.msAmpli section .artGroup article .texts h4{
+    font-size: 18px; font-weight: 700; line-height: 40px;
+}
+
+div.msAmpli section article .i1{
+    background-image: url(../img/index_ct1_i1.jpg);
+}
+div.msAmpli section article .i2{
+    background-image: url(../img/index_ct1_i2.jpg);
+}
+div.msAmpli section .artGroup article .i3{
+    background-image: url(../img/index_ct1_i3.jpg);
+    background-position: 0 0;
+}
+div.msAmpli section article .i4{
+    background-image: url(../img/index_ct1_i4.jpg);
+}
+div.msAmpli section article .i5{
+    background-image: url(../img/index_ct1_i5.jpg);
+}
+div.msAmpli section article .i6{
+    background-image: url(../img/index_ct1_i6.jpg);
+}
+
+/* content 2 / BRAND Marshall */
+div.brand{}
+div.brand section{
+    display: flex;
+    justify-content: space-between;
+}
+div.brand section .leftArt{
+    width: calc(30% - 20px);
+    padding-top: 160px;
+}
+div.brand section .leftArt .imgArea{
+    /* background-color: #ccc; */
+    direction: rtl;
+}
+div.brand section .leftArt .imgArea .image{
+    width: calc((100vw - 100%) / 2 + 100%);
+    height: 320px;
+    background-image: url(../img/index_brand_i.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+div.brand section .leftArt .texts{
+    margin-top: 20px;
+}
+div.brand section .leftArt .texts .logo{}
+div.brand section .leftArt .texts p{
+    margin-top: 40px; line-height: 40px;
+}
+div.brand section .leftArt .texts p:nth-child(2)~p{
+    display: none;
+}
+div.brand section .rightArt{
+    width: calc(60% - 20px);
+}
+div.brand section .rightArt .mnImg{
+    height: 720px;
+    background-image: url(../img/index_brand_main_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.brand section .rightArt .thumImg{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+div.brand section .rightArt .thumImg .image{
+    width: calc(33.33% - 20px);
+    height: 200px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+}
+div.brand section .rightArt .thumImg .i1{
+    background-image: url(../img/index_brand_main_i1.jpg);
+}
+div.brand section .rightArt .thumImg .i2{
+    background-image: url(../img/index_brand_i2.jpg);
+}
+div.brand section .rightArt .thumImg .i3{
+    background-image: url(../img/index_brand_i4.jpg);
+}
+
+/* content 3 , 5 / ct main image */
+div.speakers{}
+div.ctMnImg section{}
+div.ctMnImg section article{
+    height: 580px;
+}
+div.ctMnImg section .texts{
+    width: calc(66.66% - 20px);
+    padding: 80px 60px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -100px;
+    outline: 1px solid #ccc;
+}
+div.ctMnImg section .texts p:nth-of-type(2){
+    margin-top: 20px; color: #000;
+}
+
+div.speakers section article{
+    background-image: url(../img/index_speakers_i.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.headphones{
+    margin-top: 160px;
+}
+div.headphones section article{
+    background-image: url(../img/index_headphone_i.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* content 4 , 6 / 마샬 스피커 아코디언 레이아웃 , 마샬 헤드폰 아코디언 레이아웃*/
+div.marshall{
+    margin-top: 160px;
+    background-image: url(../img/marshall-logo-black.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+    padding: 0;
+    
+}
+div.marshall section{
+    position: relative;
+}
+div.marshall section .artGroup{
+    width: 116.6%;
+    display: flex;
+    justify-content: space-between;
+    height: 840px;
+    /* outline: 1px solid #000; */
+}
+div.ct04 section .artGroup{
+    flex-direction: row-reverse;
+    margin-left: -16.6%;
+}
+div.marshall section .artGroup article{
+    width: 16.6%;
+    height: 840px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+    transition: width 0.7s;
+    
+}
+div.ct04 section .artGroup article{
+    border-left: 1px solid #fff;
+    direction: ltr;
+}
+div.ct06 section .artGroup article{
+    border-right: 1px solid #fff;
+}
+div.marshall section .artGroup article.show{
+    width: calc(16.6% * 3);
+    background: linear-gradient(to right, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
+}
+div.ct06 section .artGroup article.show{
+    background: linear-gradient(to left, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
+
+}
+div.marshall section .artGroup article.show img{
+    margin: 0 auto;
+}
+div.marshall section .artGroup article img{}
+div.ct04 section .name{
+    position: absolute;
+    top: 40px; right: -40px;
+}
+div.ct06 section .name{
+    position: absolute;
+    top: 40px; left: -40px;
+}
+
+div.marshall section .name p{
+    font-weight: 700; font-size: 48px; line-height: 50px;
+}
+
+
+/*  banner 1  */
+div.banner{
+    background-position: center;
+    background-size: cover;
+}
+div.b2{
+    margin-top: 320px;
+    background-image: url(../img/index_b2_image.jpg);}
+div.b3{background-image: url(../img/index_b3_image.jpg);}
+div.b4{background-image: url(../img/index_b4_image.jpg);}
+div.banner section{
+    height: 440px;
+    display: flex;
+    align-items: center;
+}
+div.banner section .texts{
+    color:#fff;
+    
+}
+div.b3 section .texts{
+    margin-left: auto;
+}
+div.banner section .texts h3{
+    font-size: 24px; line-height: 80px; text-shadow: 3px 3px 3px #fff;
+    
+}
+div.banner section .texts p{
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+/* content 7 / LATEST STORIES */
+div.latest{}
+div.latest section{
+    display: flex;
+    justify-content: space-around;
+}
+div.latest section article{
+    width: calc(25% - 20px);
+    outline: 1px solid #999;
+    position: relative;
+}
+div.latest section article:hover{
+    box-shadow: 0  10px 10px rgba(0, 0, 0, 0.8);
+}
+
+div.latest section article .image{
+    height: 480px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+}
+div.latest section article .i1{background-image: url(../img/index_latest_i1.jpg);}
+div.latest section article .i2{background-image: url(../img/index_latest_i2.jpg);}
+div.latest section article .i3{background-image: url(../img/index_latest_i3.jpg);}
+div.latest section article .i4{background-image: url(../img/index_latest_i4.jpg);}
+
+
+div.latest section article .texts{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: 0px;
+    transition: bottom, 0.3s;
+    opacity: 0;
+}
+div.latest section article:hover .texts{
+    bottom: 120px;
+    opacity: 1;
+    
+}
+div.latest section article .texts p{
+    font-weight: 700; font-size: 18px; color: #fff; 
+    line-height: 100px; text-align: center;
+}
+
+
+/* content 8 / Marshall RECORDS */
+div.records{}
+div.records section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.records section .image{
+    width: calc(50% - 20px);
+    height: 640px;
+    background-image: url(../img/index_records_i1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+div.records section .texts{
+    width: calc(50% - 20px);
+    padding-left: 120px
+}
+div.records section .texts h4{
+    font-size: 18px; font-weight: 700; line-height: 80px;
+}
+div.records section .texts ul{
+    
+}
+div.records section .texts ul li:nth-of-type(1){
+    color: #000;
+}
+div.records section .texts .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+div.records section .texts .btn button{
+    margin-top: 80px; background-color: black;
+    color: #fff; font-weight: 700;
+    border-radius: 0;
+}

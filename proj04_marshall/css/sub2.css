@@ -1,0 +1,226 @@
+/* main */
+div.main{
+    height: 80vh;
+    background-image: url(../img/sub2_main.jpg);
+    background-size: cover;
+    background-position: 0 0;
+}
+
+
+/* content acton */
+div.acton{}
+div.acton section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+div.acton section .mnImg{
+    width: calc(50% - 20px);
+    overflow: hidden;
+}
+div.acton section .mnImgGroup{
+    width: 500%;
+    display: flex;
+}
+div.acton section .mnImgGroup .image{
+    width: 20%;
+    height: 700px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.acton section .mnImgGroup .i1{background-image: url(../img/index_ct04_i1.png);}
+div.acton section .mnImgGroup .i2{background-image: url(../img/index_ct04_i2.png);}
+div.acton section .mnImgGroup .i3{background-image: url(../img/index_ct04_i3.png);}
+div.acton section .mnImgGroup .i4{background-image: url(../img/index_ct04_i4.png);}
+div.acton section .mnImgGroup .i5{background-image: url(../img/acton_white-bottomImg.png);
+background-size:contain;}
+
+div.acton section .texts{
+    width: calc(50% - 20px);
+}
+div.acton section .texts h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+}
+div.acton section .texts p{
+    height: 80px; margin-top: 40px;
+}
+div.acton section .texts ul{
+    margin-top: 40px;
+}
+div.acton section .texts ul li{
+    font-size: 16px; color: #000; line-height: 40px;
+}
+div.acton .btns{
+    margin-top: 80px;
+}
+div.acton .btns button{
+    width: 40px; height: 40px; background-color: transparent;
+    border: 0; color: #000;
+}
+div.acton section .texts .thumImg{
+    overflow: hidden;
+}
+div.acton section .texts .thumImg .thumImgGroup{
+    width: 175%;
+    display: flex;
+    justify-content: space-between;
+}
+div.acton section .texts .thumImg .thumImgGroup .image{
+    width: calc(100% / 5 - 20px); 
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+div.acton section .texts .thumImg .thumImgGroup .i1{background-image: url(../img/index_ct04_i1.png);}
+div.acton section .texts .thumImg .thumImgGroup .i2{background-image: url(../img/index_ct04_i2.png);}
+div.acton section .texts .thumImg .thumImgGroup .i3{background-image: url(../img/index_ct04_i3.png);}
+div.acton section .texts .thumImg .thumImgGroup .i4{background-image: url(../img/index_ct04_i4.png);}
+div.acton section .texts .thumImg .thumImgGroup .i5{background-image: url(../img/acton_white-bottomImg.png);}
+
+div.acton .btn{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* content / ct main image */
+div.ctMnImg{
+    padding-bottom :0;
+}
+div.ctMnImg section{}
+div.ctMnImg section article{
+    height: 580px;
+}
+div.ctMnImg section .texts{
+    width: calc(66.66% - 20px);
+    padding: 80px 60px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -100px;
+    outline: 1px solid #ccc;
+}
+
+div.ctMnImg section article{
+    background-image: url(../img/sub2_ctMnImg_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* content ct03*/
+div.ct03{}
+div.ct03 section{}
+div.ct03 article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+div.ct03 article:nth-of-type(1){
+    margin-top: 0;
+}
+div.ct03 article .texts{
+    width: calc(100% / 12 * 5 - 20px);
+    text-align: center;
+}
+div.ct03 article .texts h4{
+    font-size: 18px; font-weight: 700; color: #000;
+}
+div.ct03 article .texts p{
+    margin-top: 40px;
+}
+div.ct03 article .image{
+    width: calc(100% / 12 * 7 - 20px);
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+}
+div.ct03 article .i1{
+    background-image: url(../img/sub2_ct03.i1.png);
+}
+div.ct03 article .i2{
+    background-image: url(../img/sub2_ct03_i2.png);
+}
+div.ct03 article .i3{
+    background-image: url(../img/sub2_ct03_i3.png);
+}
+
+
+/* content info*/
+div.info{}
+div.info section{}
+div.info article{
+    height: 480px;
+    background-image: url(../img/sub2_info_image.jpg);
+    background-size: cover;
+    background-position: 0 0;
+}
+div.info article dl{
+    border-top: 1px solid #666;
+}
+div.info article dl dt{
+    line-height: 40px;
+     font-size: 18px;
+    color: #fff;
+    padding-left: 40px;    
+}
+div.info article dl dd{
+    text-align: center;
+    background-color: rgba(238, 238, 238,0.2);
+    color: #fff;
+    display: none;
+    padding: 40px 0;
+    
+
+}
+div.info article .show+dd{
+    display: block;
+    
+}
+
+
+/* banner lastB */
+div.lastB .art1{background-image:url(../img/sub1_lastB_headphone.jpg);}
+div.lastB .art2{background-image:url(../img/sub1_lastB_speakers.jpg);}
+div.lastB .art3{background-image:url(../img/sub1_lastB_acc.jpg);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner lastB */
+div.lastB .art1{background-image:url(../img/sub1_lastB_headphone.jpg);}
+div.lastB .art2{background-image:url(../img/sub1_lastB_brand.jpg);}
+div.lastB .art3{background-image:url(../img/sub1_lastB_acc.jpg);}

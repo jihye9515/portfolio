@@ -1,0 +1,152 @@
+div.mainWrap{
+
+    main{
+        height: 500px;
+        header{
+            h3{
+                font-size: 60px;
+            }
+        }
+    }
+}
+div.content{
+    section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .texts{
+            width: calc(100% - 20px);
+            h3{
+                font-family: 'Krona One';
+                font-size: 36px;
+                line-height: 60px;
+            }
+            p{margin-top: 40px;}
+        }
+        .image{
+            width: calc(100% - 20px);
+        }
+    }
+}
+div.ct01{
+    height: 1130px;
+    section{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .texts{
+            width: calc(100% - 20px);
+        }
+        .rightImg{
+            width: calc(100% - 20px);
+            .imgGroup{
+                display: flex;
+                justify-content: flex-end;
+                }
+            .mt20{
+                margin-top: 20px;
+            }
+            .image{
+                width: calc(33.33% - 20px);
+                height: 100px;
+                background-color: rgb(22, 19, 68);
+                border-radius: 10px;
+                margin-left: 20px;
+                background-size: cover;
+                background-position: center;
+                &:hover{
+                    width: calc(33.33% - 10px);
+                    height: 110px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+div.ct02{
+    background-color: #4f57a1;
+    padding-top: 0;
+    overflow: visible;
+    section{
+        flex-direction: row-reverse;
+        margin-top: 0;
+        // outline: 1px solid #fff;
+        .image{
+            height: 360px;
+            background-color: #ccc;
+            margin-top: 40px;
+            border-radius: 15px;
+            background-image: url(../img/experience_ct02_i.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .texts{
+            padding-top: 80px;
+            text-align: left;
+        }
+    }
+}
+div.ct03{
+    padding-top: 120px;
+    height: 700px;
+    background-image: url(../img/experience_ct03_bgi.jpg);
+    section{
+        margin-top: 0;
+        .texts{
+            width: calc(100% - 20px);
+            p{
+                text-shadow: 2px 2px 5px #fff;
+            }
+        }
+    }
+}
+div.ct04{
+    background-color: #4f57a1;
+    padding-top: 0;
+    overflow: visible;
+    section{
+        margin-top: 0;
+        .image{
+            height: 360px;
+            background-color: #ccc;
+            margin-top: 40px;
+            border-radius: 15px;
+            background-image: url(../img/experience.ct04_i.png);
+            background-position: 0 center ;
+            background-size: cover;
+        }
+        .texts{
+            padding-top: 80px;
+        }
+    }
+}
+div.ftrWrap{
+    background-image: url(../img/sub4_footer_i.jpg);
+    background-size: cover;
+    .btn{
+        line-height: 40px;
+            width: 160px;
+            height: 40px;
+            text-align: center;
+            font-family: 'Neoneon';
+            text-transform: uppercase;
+            font-size: 18px;
+            background-color: #07175f;
+            border: 0;
+            border-radius: 5px;
+            box-shadow:
+                1px 1px 1px #fff,
+                0 0 10px,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e;
+            color: #fff;
+
+            &:hover {
+                color: #facb0e;
+            }
+        margin: 0 auto;
+    }
+}

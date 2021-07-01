@@ -1,0 +1,202 @@
+/* main */
+div.main{
+    height: 80vh;
+    background-image: url(../img/sub4_main.jpg);
+    background-size: cover;
+    background-position: 0 0;
+}
+div.main .text{}
+div.main .text p{}
+
+/* content videoBox */
+div.videoBox section{
+    
+}
+div.videoBox video{
+    height: 560px;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* content latest */
+div.latest{}
+div.latest section{
+    
+}
+div.latest section article{
+    overflow: hidden;
+    margin-top: 80px;
+}
+div.latest section article:nth-of-type(1){
+    margin-top: 0;
+}
+div.latest section article header{
+    width: calc(33.33% - 20px);
+    float: left;
+    margin: 0 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-top: 80px;
+}
+div.latest section article:nth-of-type(2n) header{
+    float: right;
+}
+
+div.latest section article .image{
+    width: calc(33.33% - 20px);
+    background-color: #ccc;
+    height: 360px;
+    float: left;
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+}
+div.latest section article:nth-of-type(2n) .image{
+    float: right;
+}
+
+div.latest section article .image .texts{
+    color: #fff;
+    padding: 60px;
+    background:linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0.1)  50%, #000 100%);
+    height: 360px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+div.latest section article .image .texts:hover{
+    opacity: 1;
+}
+div.latest section article .image .texts h4{
+    font-size: 18px;
+}
+div.latest section article .image .texts p{
+    margin-top: 40px;
+}
+
+div.latest section article .i1{background-image: url(../img/sub4_latst_i1.jpg);}
+div.latest section article .i2{background-image: url(../img/sub4_latst_i2.jpg);}
+div.latest section article .i3{background-image: url(../img/sub4_latst_i3.jpg);}
+div.latest section article .i4{background-image: url(../img/sub4_latst_i4.jpg);}
+div.latest section article .i5{background-image: url(../img/sub4_latst_i5.jpg);}
+div.latest section article .i6{background-image: url(../img/sub4_latst_i6.jpg);}
+div.latest section article .i7{background-image: url(../img/sub4_latst_i7.jpg);}
+div.latest section article .i8{background-image: url(../img/sub4_latst_i8.jpg);}
+
+
+/* content recode */
+div.recode{
+    
+}
+div.recode section{
+    position: relative;
+}
+div.recode section article{
+    clear: both;
+}
+div.recode section article .mnImg{
+    width: calc(50% - 20px);
+    height: 640px;
+    float: left;
+    overflow: hidden;
+    
+}
+div.recode section article .mnImg .imgGroup{
+    width: 600%;
+}
+div.recode section article .mnImg .imgGroup .image{
+    width: 16.66%;
+    float: left;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 640px;
+    background-color: #000;
+}
+div.recode section article .mnImg .imgGroup .i1{background-image: url(../img/index_records_i1.jpg);}
+div.recode section article .mnImg .imgGroup .i2{background-image: url(../img/sub4_record_i2.jpg);}
+div.recode section article .mnImg .imgGroup .i3{background-image: url(../img/sub4_record_i3.jpg);}
+div.recode section article .mnImg .imgGroup .i4{background-image: url(../img/sub4_record_i4.jpg);}
+div.recode section article .mnImg .imgGroup .i5{background-image: url(../img/sub4_record_i5.jpg);}
+div.recode section article .mnImg .imgGroup .i6{background-image: url(../img/sub4_record_i6.jpg);}
+
+div.recode .texts{
+    width: calc(50% - 20px);
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+div.recode .texts .textGroup{
+    width: 600%;
+    clear: both;
+}
+div.recode .texts .textGroup .text{
+    width: 16.66%;
+    float: left;
+    padding: 40px 70px;
+    
+}
+div.recode .texts .textGroup .text h4{
+    font-weight: 700; color: #000;
+}
+div.recode .texts .textGroup .text h4 i{
+    color: #f90;
+}
+div.recode .texts .textGroup .text h4:nth-of-type(2){
+    margin-top: 40px;
+}
+div.recode .texts .textGroup .text ul{
+    margin-top: 10px;
+}
+div.recode .texts .textGroup .text ul li{}
+div.recode .texts .textGroup .text p{
+    margin-top: 10px;
+}
+div.recode .texts .textGroup .text .btn{
+    margin-top: 40px;
+    text-align: center;
+}
+div.recode .texts .textGroup .text .btn button{}
+
+div.recode .thumImg{
+    width: 75%;
+    overflow: hidden;
+    padding-top: 40px;
+    margin: 0 auto;
+    
+}
+div.recode .thumImg .imgGroup{
+    width: 200%;
+    clear: both;
+}
+div.recode .thumImg .imgGroup .image{
+    width: calc(100% / 6 - 20px);
+    height: 160px; background-color: #ccc;
+    margin: 0 10px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+div.recode .thumImg .imgGroup .i1{background-image: url(../img/index_records_i1.jpg);}
+div.recode .thumImg .imgGroup .i2{background-image: url(../img/sub4_record_i2.jpg);
+background-position: 0 0;}
+div.recode .thumImg .imgGroup .i3{background-image: url(../img/sub4_record_i3.jpg);}
+div.recode .thumImg .imgGroup .i4{background-image: url(../img/sub4_record_i4.jpg);}
+div.recode .thumImg .imgGroup .i5{background-image: url(../img/sub4_record_i5.jpg);}
+div.recode .thumImg .imgGroup .i6{background-image: url(../img/sub4_record_i6.jpg);}
+
+div.recode .btns{
+    width: 110%;
+    position: absolute;
+    margin-left: -5%;
+    height: 40px;
+    top: 40%; 
+}
+
+div.recode section .btns button{
+    width: 40px; height: 40px; background-color: #ccc;
+    color: #000; border: 0;
+}
+div.recode .btns .Next{
+float: right;
+}

@@ -1,0 +1,169 @@
+/*sub3.css*/
+
+/*main*/
+div.main{
+    background-image: url(../img/sub3_main_i1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.main>.header{
+    padding: 240px 0;
+}
+
+/*content parking*/
+div.parking{}
+div.parking>.haeder{}
+div.parking>.section{}
+div.parking>.section>.choice{
+    text-align: center; font-size: 18px; line-height: 80px;
+    overflow: hidden;
+}
+div.parking>.section>.choice>div{
+    width: 50%;
+    border: 1px solid #ccc;
+    float: left;
+}
+div.parking>.section>.choice>.choice_left{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+div.parking>.section>.choice>.choice_right{
+    background-color: rgb(229, 229, 229);
+}
+div.parking>.section>.article{
+    overflow: hidden; 
+    padding-top: 80px;
+}
+div.parking>.section>.article>h4{
+     font-weight: 700; font-size: 18px;
+}
+div.parking>.section>.article>.segment{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    float: left;
+    padding: 80px 0;
+}
+div.parking>.section>.article>.segment>p{}
+div.parking>.section>.article>.segment>p>i{
+    font-size: 36px; line-height: 80px;
+    margin-right: 20px;
+}
+div.parking>.section>.article>.segment>p>.adr_i{
+    color: #ffaa15;
+}
+div.parking>.section>.article>.segment>p>.tell_i{
+    color: #00bff3;
+}
+div.parking>.section>.article>.segment>.btn{
+    margin-top: 40px;
+}
+div.parking>.section>.article>.segment>.btn>button{
+    width: 160px; height: 40px; background-color: #fff;
+}
+div.parking>.section>.article>.segment>.btn>.naver_btn{
+    font-size: 16px; color: #00a651;
+    border: 1px solid #00a651;
+}
+div.parking>.section>.article>.segment>.btn>.daum_btn{
+    font-size: 16px; color: #000;
+    border: 1px solid #fff200;
+}
+div.parking>.section>.article>.image{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    height: 400px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+div.parking>.section>.article>.i1{
+    background-image: url(../img/sub3_parking_i1.jpg);
+}
+div.parking>.section>.article>.i2{
+    background-image: url(../img/sub3_parking_i2.jpg);
+}
+div.parking>.section>.article>.i3{
+    background-image: url(../img/sub3_parking_i3.jpg);
+}
+
+/*content viewing*/
+div.viewing{}
+div.viewing>.header{}
+div.viewing>.section{
+    overflow: hidden;
+}
+div.viewing>.section>.article{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.viewing>.section>.article:nth-child(1,2).article{
+    margin-top: 0;
+}
+div.viewing>.section>.article>.image{
+    width: 250px; height: 240px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    
+}
+div.viewing>.section>.article>.i1{
+    background-image: url(../img/sub3_viewing_i1.jpg);
+}
+div.viewing>.section>.article>.i2{
+    background-image: url(../img/sub3_viewing_i2.jpg);
+}
+div.viewing>.section>.article>.i3{
+    background-image: url(../img/sub3_viewing_i3.jpg);
+}
+div.viewing>.section>.article>.i4{
+    background-image: url(../img/sub3_viewing_i4.jpg);
+}
+div.viewing>.section>.article>.i5{
+    background-image: url(../img/sub3_viewing_i5.jpg);
+}
+div.viewing>.section>.article>.i6{
+    background-image: url(../img/sub3_viewing_i6.jpg);
+}
+div.viewing>.section>.article>.segment{
+    width: calc(100% - 250px);
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+div.viewing>.section>.article>.segment>h4{
+    line-height: 20px;
+}
+div.viewing>.section>.article>.segment>p{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

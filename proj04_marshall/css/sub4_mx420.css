@@ -1,0 +1,41 @@
+div.videoBox{
+    padding: 0;
+}
+div.videoBox video{
+   height: 200px;
+}
+
+div.latest section article header{
+    float: none;
+    width: 100%;
+    padding-top: 0;
+    font-size: 18px;
+}
+div.latest section article .image{
+    width: calc(50% - 20px);
+    margin-top: 20px;
+    height: 200px;
+}
+div.latest section article .image .texts{
+    height: 200px;
+    padding: 20px;
+}
+div.latest section article .image .texts p{
+    display: none;
+}
+
+div.recode{
+    padding-bottom: 0;
+}
+div.recode section article .mnImg{
+    height: 340px;
+}
+div.recode section article .mnImg .imgGroup .image{
+    height: 340px;
+}
+div.recode .btns{
+    top: 10%;
+}
+div.recode .thumImg{
+    display: none;
+}

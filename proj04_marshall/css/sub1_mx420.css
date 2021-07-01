@@ -1,0 +1,26 @@
+
+
+div.ct section .ovGrid{
+    width: 100%;
+}
+div.ct section .ovGrid .image{
+    width: 100%;
+}
+div.ct section .texts{
+    width: 100%;
+    bottom: 0;
+}
+div.ct section .texts p{
+    font-size: 36px;
+    line-height: 40px;
+}
+div.history section article p{
+    width: 100%;
+    margin-left: 0;
+}
+div.b1 section .textbox h1{
+    width: 280px;
+}
+div.b1 section .textbox p{
+    width: 80%;
+}

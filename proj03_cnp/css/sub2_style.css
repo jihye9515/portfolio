@@ -1,0 +1,268 @@
+/*sub2_style.css*/
+
+/* header */
+div.hdrWrap{
+    position: static;
+}
+div.hdrWrap nav{
+    display: none;
+}
+
+div.hdrWrap{
+    position: static;
+}
+
+/* main */
+div.mnWrap {
+    padding: 80px 0;
+    height: inherit;
+}
+div.mnWrap main {
+    position: relative;
+    margin-top: 40px;
+}
+div.mnWrap main article{
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+div.mnWrap main article figure {
+    width: calc(50% - 20px); height: 520px;
+    background-image: url(../img/sub2_main_i1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+div.mnWrap main article header {
+    width: calc(50% - 20px);  
+    
+    
+}
+div.mnWrap main article header h5 {
+    color: #999;
+}
+div.mnWrap main article header h3 {
+    font-size: 36px; color: #000; line-height: 40px;
+}
+div.mnWrap main article header p {
+    margin-top: 20px;
+}
+div.mnWrap main article header nav {
+}
+div.mnWrap main article header button{
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #fc6;
+    color: #666;
+    margin-top: 40px;
+}
+div.mnWrap main .btnGroup{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+}
+div.mnWrap main .btnGroup button{
+    background-color: transparent;
+    font-size: 42px; color: #999; 
+    border: 0;  
+}
+
+
+/* contnet 1 */
+div.ct1{}
+div.ct1 section{}
+div.ct1 section article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+div.ct1 section article:nth-of-type(1){
+    margin-top: 0;
+}
+div.ct1 section article:nth-of-type(2){
+    flex-direction: row-reverse;
+}
+div.ct1 section article figure{
+    width: calc(50% - 80px);
+    height: 480px;
+    background-color: #ccc;
+}
+div.ct1 section article .i1{
+    background-image: url(../img/sub2_content1_i1.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+div.ct1 section article .i2{
+    background-image: url(../img/sub2_content1_i2.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+div.ct1 section article .i3{
+    background-image: url(../img/sub2_content1_i3.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+div.ct1 section article .texts{
+    width: 50%;
+    padding-left: 80px;
+}
+div.ct1 section article:nth-of-type(2) .texts{
+    padding-left: 0;
+}
+div.ct1 section article .texts p{
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+/* banner */
+div.banner .texts{
+    text-shadow: 3px 3px 6px #000;
+}
+div.b1{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/sub2_banner_i1-1.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+div.b1 section{
+    color: #666;
+}
+div.b1 section .texts{
+    width: 50%;
+    padding: 0 70px;
+    text-shadow: none;
+}
+div.b2{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    background-image: url(../img/sub2_banner_i2.png);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+}
+div.b2 section{}
+div.b2 section .texts{
+    width: 50%;
+    padding: 0 70px;
+    margin-left: auto;
+    
+}
+div.b3{
+    height: 600px;
+     display: flex;
+    align-items: center;
+    align-items: center;
+    background-image: url(../img/sub2_banner_i3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+div.b3 section .texts{
+    width: 50%;
+    padding: 0 70px;
+}
+
+/* content Best Tip */
+div.bestTip{}
+div.bestTip section{
+    display: flex;
+    justify-content: space-around;
+}
+div.bestTip section article{
+    width: calc(25% - 20px);
+    text-align: center;
+}
+div.bestTip section article figure{
+    width: 240px; height:240px; border-radius: 100%; 
+    background-color: #ccc;
+    background-position: 100%;
+    background-size: cover;
+}
+div.bestTip section article .i1{
+    background-image: url(../img/sub2_bestTip_i1.jpg)
+}
+div.bestTip section article .i2{
+    background-image: url(../img/sub2_bestTip_i2.jpg)
+}
+div.bestTip section article .i3{
+    background-image: url(../img/sub2_bestTip_i3.jpg)
+}
+div.bestTip section article .i4{
+    background-image: url(../img/sub2_bestTip_i4.jpg)
+}
+div.bestTip section article .texts{
+    margin-top: 20px;
+}
+div.bestTip section article .texts p{
+    width: 180px; margin: 0 auto;
+}
+
+/* content Other Product */
+div.other{}
+div.other section{}
+div.other section .artContianer{
+    /* outline: 1px solid red; */
+}
+div.other section .artContianer .artGroup{
+    width: calc(25% * 8 - 20px);
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50%;
+}
+div.other section .artContianer .artGroup article{
+    width: calc(25% - 20px);
+    height: 260px; background-color: #ccc;
+    margin: 0 10px;
+}
+div.other section .btnGroup{
+    width: 33.33%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+div.other section .btnGroup button{
+    width: 40px; height: 40px; font-size: 32px;
+    color: #fff; background-color: #ccc;
+    border: 0; border-radius: 100px;
+}
+div.other section article{
+    background-position: 100%;
+    background-size: cover;
+}
+div.other section .i1{
+    background-image: url(../img/sub2_otherPro_i1.jpg)
+}
+div.other section .i2{
+    background-image: url(../img/sub2_otherPro_i2.jpg)
+}
+div.other section .i3{
+    background-image: url(../img/sub2_otherPro_i3.jpg)
+}
+div.other section .i4{
+    background-image: url(../img/sub2_otherPro_i4.jpg)
+}
+div.other section .i5{
+    background-image: url(../img/sub2_otherPro_i5.jpg)
+}
+div.other section .i6{
+    background-image: url(../img/sub2_otherPro_i6.jpg)
+}
+div.other section .i7{
+    background-image: url(../img/sub2_otherPro_i7.jpg)
+}
+div.other section .i8{
+    background-image: url(../img/sub2_otherPro_i8.jpg)
+}
+
+

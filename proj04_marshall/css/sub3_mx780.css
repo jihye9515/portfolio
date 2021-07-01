@@ -1,0 +1,49 @@
+
+
+/* content major */
+div.major section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.major section .mnImgGroup .image{
+    width: 20%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.major section .texts .thumImg .thumImgGroup .image{
+    width: calc(100% / 5 - 20px); 
+    height: 80px;
+}
+div.major section .texts p{
+    height: auto;
+}
+div.ctMnImg article .image{
+    height: 320px;
+    background-position: 0 -50px;
+}
+
+/* content ct03*/
+
+div.ct03 article .texts{
+  
+}
+div.ct03 article .image{
+    height: 360px;
+}
+div.ct03 article .i1{
+    background-position: center;
+}
+div.ct03 article .i2{
+    background-position: center;
+}
+
+div.info article{
+    height: 480px;
+    
+    background-size: cover;
+    background-position: center;
+}

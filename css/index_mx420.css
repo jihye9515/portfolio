@@ -1,0 +1,164 @@
+div.mainWrap {
+  height: calc(100vh - 190px);
+}
+
+div.mainWrap main .mnView {
+  width: 90%;
+  height: 250px;
+  top: -60px;
+}
+
+div.mainWrap main .mnView .imgGroup .image {
+  height: 250px;
+}
+
+div.mainWrap main .textView {
+  width: 100%;
+}
+
+div.mainWrap main .textView .textGroup h3 {
+  font-size: 2.5rem;
+}
+
+div.mainWrap main .nav {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  height: 120px;
+  bottom: 20px;
+  right: 0;
+  top: auto;
+}
+
+div.mainWrap main .nav .asideContainer {
+  height: 120px;
+  position: relative;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 240px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNameView {
+  width: calc(50% - 5px);
+  height: 80px;
+  overflow: hidden;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNameView .pageNameGroup li {
+  line-height: 80px;
+  text-align: right;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNumView {
+  width: calc(50% - 5px);
+  height: 80px;
+  overflow: hidden;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNumView .pageNumGroup li {
+  font-size: 12px;
+  line-height: 80px;
+  text-align: left;
+  font-weight: 500;
+  color: #999999;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNumView .pageNumGroup .selected {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+div.mainWrap main .nav .asideContainer .btns {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.mainWrap main .nav .asideContainer .btns button {
+  display: block;
+  background-color: transparent;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+}
+
+div.ftrWrap {
+  padding: 0;
+  background-color: transparent;
+}
+
+div.ftrWrap footer .hrGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.ftrWrap footer .hrGroup hr {
+  width: 60px;
+  height: 4px;
+  background-color: #6dcff6;
+  display: block;
+  margin-top: 20px;
+  margin-right: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.ftrWrap footer .hrGroup p {
+  line-height: 40px;
+  font-family: 'Krona One';
+}
+
+div.ftrWrap footer .ulGroup {
+  color: #999;
+  display: block;
+}
+
+div.ftrWrap footer .ulGroup .rightUl li:hover {
+  color: #fff;
+}
+
+div.ftrWrap footer .ulGroup .leftUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.ftrWrap footer .ulGroup .leftUl li {
+  margin-left: 10px;
+}
+
+div.ftrWrap footer .ulGroup .leftUl li:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=index_mx420.css.map */

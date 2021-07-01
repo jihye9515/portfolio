@@ -1,0 +1,275 @@
+/*index.css*/
+
+
+/*main*/
+div.main{
+    padding: 280px 0;
+    background-image: url(../img/index_main_i1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*content perform (공연정보)*/
+div.perform{}
+div.perform>.header{}
+div.perform>.section{
+    position: relative;
+}
+div.perform>.section>.imgGroup{
+    width: calc(33.33% * 7);
+    overflow: hidden;
+    margin-left: -66.66%;
+}
+div.perform>.section>.imgGroup>.image{
+    width: calc((100% / 7) - 20px);
+    height: 480px;
+    float: left;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    background-position: center;
+    background-size: cover;
+}
+div.perform>.section>.imgGroup>.i1{
+    background-image: url(../img/index_ferform_i1.jpg);
+}
+div.perform>.section>.imgGroup>.i2{
+    background-image:url(../img/index_ferform_i2.jpg);
+}
+div.perform>.section>.imgGroup>.i3{
+    background-image:url(../img/index_ferform_i3.jpg);
+}
+div.perform>.section>.imgGroup>.i4{
+    background-image:url(../img/index_ferform_i4.jpg);
+}
+div.perform>.section>.imgGroup>.i5{
+    background-image:url(../img/index_ferform_i5.jpg);
+}
+div.perform>.section>.imgGroup>.i6{
+    background-image:url(../img/index_ferform_i6.jpg);
+}
+div.perform>.section>.imgGroup>.i7{
+    background-image:url(../img/index_ferform_i7.jpg);
+}
+div.perform>.section>.btnGroup{
+    width: 100%; max-width: 1080px; height: 80px;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0;right: 0;
+}
+div.perform>.section>.btnGroup>button{
+    width: 80px; height: 80px;
+    border-radius: 100%;
+    background-color: #ffaa15;
+    font-size: 30px; color: #fff;
+}
+div.perform>.section>.btnGroup>.btPrev{
+    float: left; margin-left: -40px;
+}
+div.perform>.section>.btnGroup>.btNext{
+    float: right; margin-right: -40px;
+}
+
+
+/*content Theater(대관안내)*/
+div.Theater{}
+div.Theater>.header{}
+div.Theater>.section{
+}
+div.Theater>.section>.article{
+    width: calc(33.3% - 20px);
+    float: left; margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+div.Theater>.section>.article>.image{
+    height: 360px; background-color: #999;
+     background-position: center;
+    background-size: cover;
+}
+div.Theater>.section>.article>.i1{
+    background-image:url(../img/index_theater_i1.jpg);
+}
+div.Theater>.section>.article>.i2{
+    background-image:url(../img/index_theater_i2.jpg);
+}
+div.Theater>.section>.article>.i3{
+    background-image:url(../img/index_theater_i3.jpg);
+}
+
+div.Theater>.section>.article>.segment{
+    width: 100%;
+    background-color: rgba(0,0,0,0.4); padding: 40px;
+    position: absolute;
+    bottom: -120px;
+    transition: bottom 0.5s;
+}
+div.Theater>.section>.article:hover>.segment{
+    bottom: 0px;
+}
+div.Theater>.section>.article>.segment>h3{
+    text-align: center; font-size: 18px; color: #fff;
+}
+
+
+/*banner*/
+div.banner{}
+div.banner>.section{
+    width: 90%; max-width: 1080px;
+    margin: 0 auto;
+}
+div.banner>.section>.article{
+    width: 75%;
+    position: relative;
+}
+div.banner>.section>.article>.colorBg{
+    background-color: #F90;
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: 100%;
+    height: 160px;
+    float: right;
+}
+div.banner>.section>.article>.segment{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;        
+    top: 40px;
+}
+div.banner>.section>.article>.segment>.context{
+    float: left;
+}
+div.banner>.section>.article>.segment>.context>h3{
+    font-size: 36px; color: #000; line-height: 40px;
+}
+div.banner>.section>.article>.segment>.context>p{
+    font-size: 18px; color: #000; line-height: 40px;
+    
+}
+div.banner>.section>.article>.segment>.btn{
+    float: right;
+    margin-right: 40px;
+}
+div.banner>.section>.article>.segment>.btn>button{
+    color: #fff; font-size: 36px;
+    background-color: #000;
+    height: 80px; width: 80px; border-radius: 100px;
+}
+
+
+/*content sn(세종 소식)*/
+div.sjNotice{}
+div.sjNotice>.header{}
+div.sjNotice>.section{
+}
+div.sjNotice>.section>.btn{
+    width: 10%;
+    float: left;
+    padding: 120px 0;
+}
+div.sjNotice>.section>.btn>button{
+    text-align: center;
+    font-size: 80px; line-height: 80px;
+    background-color: transparent;
+}
+div.sjNotice>.section>.poster{
+    width: 90%;
+    float: left;
+}
+div.sjNotice>.section>.poster>.artGroup{
+    width: 200%;
+    
+}
+div.sjNotice>.section>.poster>.artGroup>.article{
+    width: calc((100% / 6) - 20px); 
+    margin: 0 10px;
+    float: left;
+    position: relative;
+    
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.image{
+    height: 360px; background-color: #ccc;
+     background-position: center;
+    background-size: cover;
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.i1{
+    background-image:url(../img/index_sjNotice_i1.jpg);
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.i2{
+    background-image:url(../img/index_sjNotice_i2.jpg);
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.i3{
+    background-image:url(../img/index_sjNotice_i3.jpg);
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.i4{
+    background-image:url(../img/index_sjNotice_i4.jpg);
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.i5{
+    background-image:url(../img/index_sjNotice_i5.jpg);
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.i6{
+    background-image:url(../img/index_sjNotice_i6.jpg);
+}
+
+div.sjNotice>.section>.poster>.artGroup>.article>.btn{
+    width: 80px; height: 80px; border-radius: 100px;
+    background-color: #ffaa15; cursor: pointer;
+    text-align: center; padding: 30px 0;
+    position: absolute;
+    bottom: -40px;
+    margin-left: 20px;
+    
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.btn>button{
+    color: #000;
+    font-size: 20px;
+    background-color: transparent;
+}
+div.sjNotice>.section>.poster>.artGroup>.article>.btn>button>i{
+    cursor: pointer;
+}
+/*Frequently Asked Questions*/
+div.faq{
+    background-color: #ffaa15;
+    text-align: center;
+}
+div.faq>.header{}
+div.faq>.header>h2{
+    text-align: center;
+}
+div.faq>.section{}
+div.faq>.section>p{
+    color: #000;
+}
+div.faq>.section>.btn{
+    margin-top: 40px;
+}
+div.faq>.section>.btn>button{
+    border: 1px solid #000;
+    width: 200px; height: 80px;
+    border-radius: 100px;
+    font-size: 16px;
+    background-color: #ffaa15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

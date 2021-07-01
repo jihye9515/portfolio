@@ -1,0 +1,110 @@
+*.clear::after{
+    display: none;
+}
+div.mnWrap{
+    display: none;
+    background-color: #333;
+}
+
+
+div.hdrWrap{
+    background-color: #000;
+    padding: 20px 0;
+}
+div.hdrWrap>.header{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    float: none;
+}
+div.hdrWrap>.header>h1{
+    width: 100%;
+    text-align: center;
+}
+div.hdrWrap>.header>ul{
+    width: 100%;
+   overflow: hidden; 
+   float: none;
+   /* margin: 0 auto; */
+   text-align: center;
+}
+div.hdrWrap>.header>ul>li{
+    width: 25%;
+    float: left; line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    margin-left: 0;
+}
+div.mainImg{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+/* content */
+div.content{
+    padding: 80px 0;
+}
+div.content>.section>div{
+    width: 100%;
+    margin: 0;
+}
+div.content>.section>div>.header{
+    text-align: center;
+    width: 100%;
+   
+}
+div.content>.section>.left{
+    float: none;
+}
+div.content>.section>.right{
+    float: none;
+}
+div.content>.section>.left>.header>.btn{
+    text-align: center;
+    margin-top: 40px;
+}
+div.exterior>.section>.left>.article{
+    width: 100%;
+}
+div.content>.section>.right>.header>.btn{
+    text-align: center;
+    margin-top: 40px;
+}
+div.content .header  h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+div.content .header hr {
+    margin-top: 40px;
+    
+}
+
+div.content>.section>.right>.image {
+    width: 100%;
+    height: 320px;
+    background-position: center;
+}
+div.content>.section>.left>.image {
+    width: 100%;
+    height: 320px;
+    background-position: center;
+    float: none;
+}
+div.exterior{
+
+}
+div.interior{
+    
+}
+div.capability{
+    
+}
+div.safety .article{
+    overflow: hidden;
+}
+
+div.capability>.section>.left{
+    float: none;
+}

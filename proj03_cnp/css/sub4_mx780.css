@@ -1,0 +1,60 @@
+/*sub4_mx780.css*/
+
+/*content review*/
+div.review section{
+    display: block;
+}
+div.review section article{
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+}
+div.review section article:nth-child(1)article{
+    margin-top: 0;
+}
+div.review section article:nth-child(4)~article{
+    display: none;
+}
+div.review section article figure{
+    width: calc(33.33% - 60px); 
+    height: 200px;
+}
+div.review section article .texts{
+    width: calc(66.66% - 60px);
+}
+
+div.b1 section{
+    display: block;
+}
+div.b1 section .mnBanner{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+div.b1 section .mnBanner .texts{
+    padding: 0 20px;
+
+}
+div.b1 section .mnBanner .image{
+    width: 310px; height: 300px;
+}
+div.b1 section .baseBanner{
+    width: 100%;
+}
+div.b1 section .baseBanner .image{
+    width: calc((100vw - 100%) + 110%);
+    margin-left: -10%;
+}
+div.b1 .baseBanner .texts{
+    text-align: center;
+    right: 0; left: 0;
+    height: 140px;
+}
+
+div.b2 section article figure{
+    height: 360px;
+}

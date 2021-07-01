@@ -1,0 +1,21 @@
+/* sub1_mx780.css */
+body{
+}
+/*content 1*/
+div.ct1 section article{
+    margin-top: 80px;
+}
+div.ct1 section article:nth-of-type(2n) .texts{
+    padding-left:80px;
+}
+div.ct1 section article figure{
+    width: 50%;
+    height: 350px;
+    background-size: 100%;
+    background-position: 100%;
+}
+
+/*banner 2*/
+div.b2 section .texts h3{
+    font-size: 24px;
+}

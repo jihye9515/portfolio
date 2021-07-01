@@ -1,0 +1,172 @@
+/*sub1.css*/
+
+/*main*/
+div.main{
+    background-image: url(../img/sub1_main_i1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.main>.header{
+    padding: 240px 0;
+}
+
+/*content perform*/
+div.perform{}
+div.perform>.header{}
+div.perform>.section{
+    overflow: hidden
+}
+div.perform>.section>.article{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    overflow: hidden;
+    float: left;
+}
+div.perform>.section .mt{
+    margin-top: 40px;
+}
+div.perform>.section>.article>.image{
+    width: 250px;
+    height: 240px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+div.perform>.section>.article>.i1{
+    background-image: url(../img/sub1_perform_i1.jpg);
+}
+div.perform>.section>.article>.i2{
+     background-image: url(../img/sub1_perform_i2.jpg);
+}
+div.perform>.section>.article>.i3{
+     background-image: url(../img/sub1_perform_i3.jpg);
+}
+div.perform>.section>.article>.i4{
+     background-image: url(../img/sub1_perform_i4.jpg);
+}
+div.perform>.section>.article>.i5{
+     background-image: url(../img/sub1_perform_i5.jpg);
+}
+div.perform>.section>.article>.i6{
+     background-image: url(../img/sub1_perform_i6.jpg);
+}
+div.perform>.section>.article>.segment{
+    width: calc(100% - 180px);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: -70px;
+}
+div.perform>.section>.article>.segment>ul{
+    margin-top: 40px;
+}
+div.perform>.section>.article>.segment>.btn>button{
+    width: 40px; height: 40px;
+    border-radius: 100px;
+}
+div.perform>.section>.article>.segment>.btn>.left{
+    background-color: #00bff3;
+}
+div.perform>.section>.article>.segment>.btn>.right{
+    background-color: #ffaa15;
+}
+div.perform>.footer{
+    text-align: center;
+}
+
+/*banner*/
+div.banner{}
+div.banner>.section{
+    overflow: hidden;
+}
+div.banner>.section>.article{
+    width: 33.33%;
+    overflow: hidden;
+    float: left;
+    padding: 40px 20px;
+    border: 1px solid #ccc;
+}
+div.banner>.section>.article>.icon{
+    font-size: 42px; color: #984b81;
+    float: left;
+    margin: 0 10px;
+}
+div.banner>.section>.article>.icon>i{}
+div.banner>.section>.article>p{
+    float: left; line-height: 40px;
+}
+
+/*content sjSeason*/
+div.sjSeason{}
+div.sjSeason>.header{}
+div.sjSeason>.section{
+    overflow: hidden;
+}
+div.sjSeason>.section>.article{
+    width: calc(25% - 20px);
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    float: left;
+}
+div.sjSeason>.section>.article>.image{
+    height: 320px; 
+    background-position: center;
+    background-size: cover;
+}
+div.sjSeason>.section>.article>.i1{
+    background-image: url(../img/sub1_season_i1.jpg);
+}
+div.sjSeason>.section>.article>.i2{
+    background-image: url(../img/sub1_season_i2.jpg);
+}
+div.sjSeason>.section>.article>.i3{
+    background-image: url(../img/sub1_season_i3.jpg);
+}
+div.sjSeason>.section>.article>.i4{
+    background-image: url(../img/sub1_season_i4.jpg);
+}
+div.sjSeason>.section>.article>.segment{
+    padding: 0 20px;
+    overflow: hidden;
+}
+div.sjSeason>.section>.article>.segment>p{
+    float: left; line-height: 80px;
+}
+div.sjSeason>.section>.article>.segment>.btn{
+    float: right; width: 33.33%; 
+    padding: 20px;
+}
+div.sjSeason>.section>.article>.segment>.btn>button{
+    background-color: #ffaa15;
+    border-radius: 100px;
+    text-align: center;
+    width: 40px; height: 40px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

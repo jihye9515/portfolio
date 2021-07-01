@@ -1,0 +1,572 @@
+body {
+  background-color: #fff;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  overflow-x: hidden;
+}
+
+header {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffcc66;
+  line-height: 80px;
+}
+
+header p {
+  margin-top: 40px;
+}
+
+section {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.content {
+  padding: 160px 0;
+}
+
+hr {
+  width: 20px;
+  height: 4px;
+  margin-top: 42px;
+  background-color: #002157;
+  display: inline-block;
+}
+
+div.mainWrap {
+  background-image: url();
+  background-color: #798179;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/personal_jeep_main.jpg);
+}
+
+div.mainWrap main {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+div.mainWrap main h3 {
+  font-weight: 700;
+  font-size: 84px;
+  color: #ffcc66;
+  line-height: 80px;
+}
+
+div.mainWrap main article {
+  margin-top: 80px;
+  width: 66.66%;
+  margin-left: auto;
+}
+
+div.mainWrap main article .image {
+  height: 520px;
+  background-image: url(../img/personal_jeep_main_mockUpImg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.mainWrap main .mouse {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.mainWrap main .mouse .mouseIcon {
+  width: 30px;
+  height: 45px;
+  border: 4px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+div.mainWrap main .mouse .mouseIcon .mouseWheel {
+  height: 8px;
+  margin: 2px auto 0;
+  display: block;
+  width: 4px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+          animation: 1.6s ease infinite wheel-up-down;
+}
+
+@-webkit-keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+@keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+div.overView header {
+  text-align: center;
+}
+
+div.overView header p {
+  color: #000;
+  font-size: 16px;
+}
+
+div.partic section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+}
+
+div.partic section article {
+  width: calc(25% - 20px);
+}
+
+div.partic section article .progress {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+div.partic section article .progress ul {
+  width: 50%;
+  overflow: hidden;
+}
+
+div.partic section article .progress ul li {
+  width: 100%;
+  height: 200px;
+  background-color: #facb0e;
+}
+
+div.partic section article .progress .left li {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+div.partic section article .progress .right li {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  margin-left: -100%;
+}
+
+div.partic section article .progress .text {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  background-color: #fff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+div.partic section article .progress .text .name {
+  font-family: 'Krona One';
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 35%;
+}
+
+div.partic section article .progress .text .num {
+  font-family: 'Krona One';
+  font-size: 16px;
+  line-height: 40px;
+}
+
+div.design {
+  background-color: #000;
+}
+
+div.design section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.design section .artGroup {
+  width: calc(50% - 20px);
+}
+
+div.design section .artGroup article .texts h4 {
+  font-size: 24px;
+  color: #fff;
+  line-height: 80px;
+  position: relative;
+}
+
+div.design section .artGroup article .texts h4 span {
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 80px;
+  font-weight: 900;
+  position: absolute;
+  z-index: 0;
+  top: -30px;
+  left: -20px;
+}
+
+div.design section article {
+  width: calc(50% - 20px);
+}
+
+div.design section article .texts {
+  text-align: center;
+}
+
+div.design section article .texts h4 {
+  font-size: 36px;
+  line-height: 80px;
+  color: #fff;
+  font-weight: 700;
+}
+
+div.design section article .texts h5 {
+  color: #ffcc66;
+  font-size: 18px;
+}
+
+div.design section article .texts p {
+  margin-top: 20px;
+}
+
+div.keyword section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.keyword section article {
+  width: 33.33%;
+  text-align: center;
+}
+
+div.keyword section article h4 {
+  font-size: 24px;
+  line-height: 40px;
+  color: #002157;
+}
+
+div.trends {
+  background-color: #ffcc66;
+}
+
+div.trends header h3 {
+  color: #000;
+}
+
+div.trends section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.trends section article {
+  width: calc(50% - 20px);
+  text-align: center;
+}
+
+div.trends section article .image {
+  height: 240px;
+  background-size: cover;
+}
+
+div.trends section article .texts h4 {
+  font-size: 24px;
+  line-height: 40px;
+  color: #002157;
+}
+
+div.trends section article .i1 {
+  background-image: url(../img/personal_trends_i1.jpg);
+}
+
+div.trends section article .i2 {
+  background-image: url(../img/personal_trends_i2-1.jpg);
+}
+
+div.colorSystem section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.colorSystem section article {
+  width: calc(33.33% - 20px);
+}
+
+div.colorSystem section article .colorBox {
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+}
+
+div.colorSystem section article .cb1 {
+  background-color: #000000;
+}
+
+div.colorSystem section article .cb2 {
+  background-color: #ffcc66;
+}
+
+div.colorSystem section article .cb3 {
+  background-color: #002157;
+}
+
+div.colorSystem section article .colorName {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 60%;
+  height: 60px;
+  font-size: 18px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+div.colorSystem section article .cn1 {
+  color: #000000;
+}
+
+div.colorSystem section article .cn2 {
+  color: #ffcc66;
+}
+
+div.colorSystem section article .cn3 {
+  color: #002157;
+}
+
+div.typoSystem section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.typoSystem section article h4 {
+  width: 35%;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+div.typoSystem section article ul {
+  padding: 40px 0;
+  width: 65%;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+div.typoSystem section article ul li {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+div.typoSystem section article ul li:nth-of-type(1) {
+  font-weight: 300;
+}
+
+div.typoSystem section article ul li:nth-of-type(3) {
+  font-weight: 700;
+}
+
+div.typoSystem section article ul li:nth-of-type(5) {
+  text-transform: uppercase;
+}
+
+div.web section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.web section article {
+  width: calc(50% - 20px);
+  height: 760px;
+  position: relative;
+}
+
+div.web section article header {
+  width: 100%;
+}
+
+div.web section article .texts {
+  margin-top: 80px;
+}
+
+div.web section article .gridSystem {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+}
+
+div.web section article .gridSystem .gridView {
+  width: calc(100% / 3 * 2 - 20px);
+  height: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: auto;
+  background-image: url(../img/personal_jeep_gridSystem_i1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+div.web section article .gridSystem h4 {
+  text-align: right;
+}
+
+div.web section .ovgrid {
+  width: calc(50% - 20px);
+}
+
+div.web section .ovgrid .image {
+  width: calc((100vw - 100%) / 2 + 100%);
+  height: 760px;
+  background-image: url(../img/personal_jeep_web_mockUpImg.png);
+  background-position: 0 0;
+  background-size: cover;
+}
+
+div.mobile section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.mobile section article {
+  width: calc(50% - 20px);
+  height: 640px;
+  position: relative;
+}
+
+div.mobile section article header {
+  width: 100%;
+}
+
+div.mobile section article .texts {
+  margin-top: 80px;
+}
+
+div.mobile section article .gridSystem {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+div.mobile section article .gridSystem .gridView {
+  width: calc(100% / 6 * 2 - 60px);
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: auto;
+  background-image: url(../img/personal_jeep_mobileGrid_i1.jpg);
+  background-size: cover;
+}
+
+div.mobile section article .gridSystem h4 {
+  text-align: right;
+}
+
+div.mobile section .ovgrid {
+  width: calc(50% - 20px);
+}
+
+div.mobile section .ovgrid .image {
+  width: calc((100vw - 100%) / 2 + 100%);
+  height: 640px;
+  background-image: url(../img/personal_jeep_mobile_mockUpImg.png);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.publishing {
+  background-color: #ffcc66;
+}
+
+div.publishing header h3 {
+  color: #000;
+}
+
+div.ftrWrap {
+  padding: 80px;
+  background-color: #000;
+  background-position: bottom;
+}
+
+div.ftrWrap .preView {
+  font-size: 16px;
+  line-height: 40px;
+  width: 160px;
+  height: 40px;
+  background-color: #fc6;
+  text-align: center;
+  color: #000;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=personal_jeep.css.map */

@@ -1,0 +1,308 @@
+/*common.css*/
+@import url('../../css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+body{
+    font-family: "Noto Sans KR", "돋움", "Sans-serif"; font-weight: 300;
+    font-size: 14px; line-height: 20px; color: #666; overflow-x: hidden;
+}
+*.clear::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+/* 부드러운 스크롤 */
+html{
+    scroll-behavior: smooth;
+}
+/*hdrWrap*/
+div.hdrWrap{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+div.hdrWrap header{
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 420px){
+    div.hdrWrap header{
+        position: relative;
+    }
+}
+div.hdrWrap header h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+div.hdrWrap header nav{
+    display: flex; 
+}
+@media (max-width: 420px){
+    div.hdrWrap header nav{
+        position: absolute;
+        bottom: -160px;
+        right: -10%;
+        text-align: center;
+        /* display: block; */
+        display: none;
+    }
+}
+div.hdrWrap header nav h2{
+    color: #fff; font-size: 14px; line-height: 40px;
+    margin-right: 40px;
+}
+@media (max-width: 420px){
+    div.hdrWrap header nav h2{
+        color: #000;
+    }
+}
+div.hdrWrap header .menu{
+    color: #000; font-size: 18px; line-height: 40px;
+}
+@media (max-width: 420px){
+    div.hdrWrap header .menu{
+        display: block;
+        color: #fff;
+    }
+}
+
+/*main*/
+div.mnWrap{
+    height: 100vh;
+    display: flex;
+    align-items: center;  
+}
+
+div.mnWrap main{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.mnWrap main header{
+    margin-left: 10px;
+}
+div.mnWrap main header h5{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+div.mnWrap main header h3{
+    
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #000;
+}
+div.mnWrap main header p{
+    
+    line-height: 20px; 
+    height: 40px; overflow: hidden;
+}
+div.mnWrap main header .btnGroup{
+    margin-top: 40px;
+}
+
+div.mnWrap main header .btnGroup button{
+    width: 160px; height: 40px;
+    background-color: transparent;
+    border: 2px solid #fc6;
+    margin-right: 20px;
+}
+div.mnWrap main article{
+    width: calc(50% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-top: 100px;
+}
+div.mnWrap main article .text{
+    width: calc(33.33% - 20px);
+    border: 1px solid #fc0;
+    border-top: 4px solid #fc0;
+    height: 120px; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+}
+div.mnWrap main article .i1{
+    background-image: url(../img/free-icon-photos-77479.png);
+    background-size: contain;
+}
+div.mnWrap main article .i2{
+    background-image: url(../img/free-icon-gift-837965.png);
+}
+div.mnWrap main article .i3{
+    background-image: url(../img/free-icon-coupon-590461.png);
+}
+div.mnWrap main article hr{
+    width: calc(100% - 20px);
+    height: 8px; background-color: #000;
+    margin-top: 12px;
+}
+
+/*global content*/
+div.content {
+    padding: 160px 0;
+    overflow-x: hidden;
+}
+
+div.content header {
+    text-align: center;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+div.content header h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    line-height: 80px;
+}
+
+div.content section {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+div.content section h3 {
+    font-size: 36px;
+    color: #000;
+    line-height: 40px;
+}
+
+div.content section h4 {
+    font-size: 18px;
+    line-height: 40px;
+}
+div.content section article .texts nav i{
+    font-size: 20px;
+}
+/*작게 들어가는 cnp로고*/
+div.content section h5 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+div.content button {
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #fc6;
+    color: #666;
+    margin-top: 40px;
+}
+
+/*banner*/
+div.banner{}
+
+div.banner section {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+div.banner section {
+    color: #fff;
+}
+
+div.banner section h3 {
+    font-size: 36px;
+    line-height: 80px;
+}
+
+div.banner section .texts p {}
+
+div.banner .btn {
+    text-align: center;
+    line-height: 40px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #fc6;
+    color: #666;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+
+/*global footer*/
+div.ftrWrap {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+div.ftrWrap footer {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.ftrWrap footer h1 {
+    width: 100%;
+}
+
+div.ftrWrap footer .adrGroup {
+    width: 50%;
+    margin-top: 40px;
+}
+
+div.ftrWrap footer address:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+div.ftrWrap footer .sns {
+    text-align: right;
+    width: 50%;
+    padding-top: 90px;
+}
+
+div.ftrWrap footer .sns nav {}
+
+div.ftrWrap footer .sns nav i {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

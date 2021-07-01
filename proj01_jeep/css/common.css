@@ -1,0 +1,164 @@
+/*common.css*/
+@import url('../../css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+body{
+    font-family: "Noto Sans KR", "돋움", "Sans-serif";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    overflow-x: hidden;
+}
+
+*.clear::after{
+    display: block; content:'';
+    clear:both;
+}
+
+/*유틸메뉴*/
+div.mnWrap{
+    background-color: #333;
+}
+div.mnWrap>.menu{
+    overflow: hidden;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.mnWrap>.menu>ul{}
+div.mnWrap>.menu>.fl{
+    float: left;
+}
+div.mnWrap>.menu>.fr{
+    float: right;
+}
+div.mnWrap>.menu>ul>li{
+    float: left; color: #FFF; line-height: 40px; font-size: 12px;
+}
+div.mnWrap>.menu>.fl>li{
+    margin-right: 20px;
+   
+}
+
+div.mnWrap>.menu>.fr>li{
+    margin-left: 20px;
+}
+
+
+div.hdrWrap{
+    background-color: #000;
+    padding: 20px 0;
+}
+div.hdrWrap>.header{
+    overflow: hidden;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.hdrWrap>.header>h1{
+    float: left;
+}
+div.hdrWrap>.header>ul{
+    float: right;
+    
+}
+div.hdrWrap>.header>ul>li{
+    float: left; line-height: 40px;
+    margin-left: 60px;
+    color: #FFF;
+}
+/*글로벌 콘텐츠*/
+div.content{
+    padding: 160px 0;
+}
+div.content .header{}
+div.content .header h2{
+    font-weight: 700; font-size: 84px; color: #ffcc66; line-height: 80px;
+}
+div.content .header hr{
+    width: 20px; height: 4px; background-color: #002157;
+    margin-top: 72px;
+    display: inline-block;
+}
+div.content .header p{
+    margin-top: 40px;
+}
+div.content .header .btn{
+    margin-top: 120px;
+}
+div.content .header button{
+    width: 180px; height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #999;
+    color: #fff;
+}
+div.content .section{
+    width: 90%;
+    max-width: 1080px; margin: 0 auto;
+    margin-top: 80px;
+}
+div.content .section h3{
+    font-weight: 700; font-size: 24px; color: #000; line-height: 40px;
+}
+div.content .section h5{
+    font-weight: 500; font-size: 12px; color: #333; line-height: 40px;
+}
+div.content .section p{
+    
+}
+div.content .section menu{
+    font-size: 30px; color: #000; line-height: 40px;
+}
+
+/*배너*/
+div.banner{
+    padding: 40px 0;
+} 
+div.banner .section{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/*글로벌 푸더*/
+div.ftrWrap{
+    background-color: #333;
+    padding: 80px 0;
+    color: #fff;
+}
+div.ftrWrap>.footer{
+    width: 90%;
+    max-width: 1080px; margin: 0 auto;
+    overflow: hidden;
+}
+div.ftrWrap>.footer>h1{}
+div.ftrWrap>.footer>.fl{
+    float: left;
+    margin-top: 40px;
+}
+@media (max-width: 420px){
+    div.ftrWrap>.footer>.fl{
+        float: none;
+    }
+}
+div.ftrWrap>.footer>.fl>p{
+    width: 520px;
+}
+@media (max-width: 420px){
+    div.ftrWrap>.footer>.fl>p{
+        width: 100%;
+    }
+}
+div.ftrWrap>.footer>.fl>.p1{}
+div.ftrWrap>.footer>.fl>.p2{
+    margin-top: 10px;
+}
+div.ftrWrap>.footer>.fr{
+    float: right;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+div.ftrWrap>.footer>.fr>h3{}
+div.ftrWrap>.footer>.fr>.sns{
+    font-size: 40px; line-height: 80px;
+}

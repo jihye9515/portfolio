@@ -1,0 +1,18 @@
+body{
+}
+div.magazine .sect1 article{}
+div.magazine .sect1 article figure{
+    width: calc(50% - 20px);
+    height: 300px;
+    margin: 0 10px;
+}
+div.magazine .sect1 article .texts{
+    margin: 0 10px;
+    padding-left: 20px;
+}
+div.magazine .sect2 article figure{
+    height: 200px; 
+}
+div.brandVideo section article figure{
+   height: 200px;
+}

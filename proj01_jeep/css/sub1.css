@@ -1,0 +1,252 @@
+/*sub1.css*/
+
+/*메인*/
+div.mainImg{
+    height: 480px;
+    background-image: url(../img/main%20image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*exterior*/
+div.exterior{}
+div.exterior>.section{}
+div.exterior>.section>div{
+    width: calc(100% / 2 - 20px);
+    margin: 0 10px;
+}
+div.exterior>.section>.left{
+    float: left;
+}
+div.exterior>.section>.left>.header{}
+div.exterior>.section>.left>.header>.btn{
+    text-align: right;
+}
+div.exterior>.section>.left>.article{
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.exterior>.section>.left>.article>.image{
+    width: calc(50% - 10px); height: 160px;
+    float: left; 
+}
+div.exterior>.section>.left>.article>.i1{
+    float: left;
+    background-image: url(../img/sub1_exterior_i3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.exterior>.section>.left>.article>.i2{
+    float: right;
+    background-image: url(../img/sub1_exterior_i2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.exterior>.section>.right{
+    float: left;
+}
+div.exterior>.section>.right>.image{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    height: 600px; 
+    background-image: url(../img/sub1_exterior_i1.jpg);
+    background-position: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*interior*/
+div.interior{
+    background-color: #000;
+}
+div.interior>.section{}
+div.interior>.section>div{
+    width: calc(100% / 2 - 20px);
+    margin: 0 10px;
+    float: left;
+}
+div.interior>.section>.left{}
+div.interior>.section>.left>.image{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    height: 600px;
+    float: right;
+    background-image: url(../img/sub1_interior_i1.jpg);
+    background-position: right;
+    background-size: auto 100%; 
+}
+div.interior>.section>.right{}
+div.interior>.section>.right>.header{}
+div.interior>.section>.right>.header>.btn{
+    text-align: right;
+    margin-top: 80px;
+}
+div.interior>.section>.right>.article{
+    margin-top: 40px;
+    overflow: hidden;
+}
+div.interior>.section>.right>.article>.image{
+    width: calc(50% - 10px); height: 160px;
+}
+div.interior>.section>.right>.article>.i1{
+    float: left;
+    background-image: url(../img/sub1_interior_i2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.interior>.section>.right>.article>.i2{
+    float: right;
+     background-image: url(../img/sub1_interior_i3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*capability*/
+div.capability{}
+div.capability>.section{}
+div.capability>.section>div{
+    width: calc(100% / 2 - 20px);
+    margin: 0 10px;
+}
+div.capability>.section>.left{
+    float: left;
+}
+div.capability>.section>.left>.header{}
+div.capability>.section>.left>.header>p{
+    height: 80px; overflow: hidden;
+}
+div.capability>.section>.left>.header>.btn{
+    text-align: right;
+    margin-top: 80px;
+}
+div.capability>.section>.left>.article{
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.capability>.section>.left>.article>.image{
+    width: calc(50% - 20px); height: 160px;
+    float: left; 
+}
+div.capability>.section>.left>.article>.i1{
+    margin: 0 20px;
+    background-image: url(../img/sub1_capability_i2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capability>.section>.left>.article>.i2{
+    background-image: url(../img/sub1_capability_i3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.capability>.section>.right{
+    float: left;
+}
+div.capability>.section>.right>.image{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    height: 600px;
+    background-image: url(../img/sub1_capability_i1.jpg);
+    background-position: left;
+    background-size: auto 100%;
+}
+
+
+/*safety & security*/
+div.safety{
+    background-color: #000;
+}
+div.safety>.section{}
+div.safety>.section>div{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
+div.safety>.section>.left{
+    float: left;
+}
+div.safety>.section>.left>.image{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    height: 600px;
+    float: right;
+    background-image: url(../img/sub1_safety_i1.jpg);
+    background-position: right;
+    background-size: auto 100%;
+}
+div.safety>.section>.right{
+    float: left;
+}
+div.safety>.section>.right>.header{}
+div.safety>.section>.right>.header>.btn{
+    text-align: right;
+    margin-top: 0;
+}
+div.safety>.section>.right>.article{
+    margin-top: 40px;
+}
+div.safety>.section>.right>.article>.image{
+    background-color: #ccc;
+    width: calc(50% - 20px); height: 160px;
+}
+div.safety>.section>.right>.article>.i1{
+    float: left;
+     background-image: url(../img/sub1_safety_i2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.safety>.section>.right>.article>.i2{
+    float: right;
+     background-image: url(../img/sub1_safety_i3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

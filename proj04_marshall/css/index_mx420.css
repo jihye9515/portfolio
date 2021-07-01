@@ -1,0 +1,165 @@
+
+
+
+
+/* main */
+div.main{
+    height: 70vh;
+}
+div.main .imgview{
+    height: 70vh;
+ }
+ div.main .imgview .imgGroup{
+    height: 70vh;
+}
+div.main .imgview .imgGroup .image{
+    height: 70vh;
+}
+div.main .texts .pview .pGroup p{
+    font-size: 36px; line-height: 40px; 
+}
+
+div.main .pageNav{
+    display: none;
+}
+
+/*  banner 1 */
+div.b1{
+    height: 280px;
+}
+
+/* content 1 / Marshall Amplification */
+div.msAmpli section .artGroup article{
+    width: 100%;
+    height: 200px;
+}
+
+/* content 2 / BRAND Marshall */
+div.brand section{
+    display: block;
+}
+div.brand section .leftArt{
+    width: 100%;
+    padding-top: 0;
+}
+div.brand section .leftArt .imgArea{
+    display: none;
+}
+div.brand section .leftArt .texts p{
+    height: 280px;
+}
+div.brand section .rightArt{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+div.brand section .rightArt .mnImg{
+    height: 400px;
+    margin-top: 20px;
+}
+div.brand section .rightArt .thumImg .image{
+    height: 100px;
+}
+
+/* content 3 , 5 / ct main image */
+div.ctMnImg section article{
+    height: 240px;
+}
+div.ctMnImg section .texts{
+    width:90%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -40px;
+    outline: 1px solid #ccc;
+}
+/*  banner 1  */
+div.banner section{
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+div.banner section .texts{
+    text-align: center;
+}
+div.banner section .texts h3{
+    font-size: 24px; line-height: 40px; text-shadow: 3px 3px 3px #fff;
+    
+}
+div.banner section .texts p{
+    text-shadow: 3px 3px 3px #000;
+}
+div.b3 section .texts{
+    margin-left: 0;
+}
+
+
+/* content 7 / LATEST STORIES */
+div.latest section{
+    flex-wrap: wrap;
+}
+div.latest section article{
+    width: 80%;
+    margin-top: 20px;
+}
+div.latest section article .image{
+    height: 280px;
+}
+div.latest section article .texts{
+    position: static;
+    margin-top: -100px;
+    opacity: 1;
+}
+
+/* content 8 / Marshall RECORDS */
+div.records section{
+    display: block;
+}
+div.records section .image{
+    width: 100%;
+    height: 420px;
+}
+div.records section .texts{
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+}
+
+/* content 4 , 6 / 마샬 스피커 아코디언 레이아웃 , 마샬 헤드폰 아코디언 레이아웃*/
+div.marshall section{
+    position: relative;
+}
+div.marshall section .artGroup{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+div.marshall section .artGroup article{
+    width: 100%;
+    height: auto;
+}
+div.marshall section .artGroup article img{
+    height: 200px;
+    margin: 0 auto;
+}
+div.marshall section .artGroup article.show{
+    width: 100%;
+}
+div.ct04 section .artGroup{
+    margin-left: 0;
+}
+div.ct04 section .name{
+    position: absolute;
+    top: -120px; right: 0px;
+}
+div.ct06 section .name{
+    position: absolute;
+    top: -60px; left: 0px;
+}
+
+div.marshall section .name p{
+    font-weight: 700; font-size: 48px; line-height: 50px;
+}
+
+/*footer*/

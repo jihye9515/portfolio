@@ -1,0 +1,13 @@
+body{
+    overflow: hidden;
+}
+div.portfolio{
+    section{
+        .texts{
+            width: calc(65% - 20px);
+        }
+        .project{
+            width: 35%;
+        }
+    }
+}

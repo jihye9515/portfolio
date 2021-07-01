@@ -1,0 +1,270 @@
+body {
+  position: relative;
+}
+
+div.hdrWrap header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.mainWrap {
+  height: calc(100vh - 160px);
+}
+
+div.mainWrap main {
+  position: relative;
+  height: 100%;
+}
+
+div.mainWrap main .mnView {
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div.mainWrap main .mnView .imgGroup .image {
+  height: 600px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+div.mainWrap main .mnView .imgGroup .i1 {
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+}
+
+div.mainWrap main .mnView .imgGroup .i1 .myNeon {
+  height: 90%;
+}
+
+div.mainWrap main .mnView .imgGroup .i1 .myNeon path {
+  fill: none;
+  stroke: #00c2fa;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+div.mainWrap main .mnView .imgGroup .i2 {
+  background-image: url(../img/index_main_i2.png);
+  background-size: cover;
+}
+
+div.mainWrap main .mnView .imgGroup .i3 {
+  background-image: url(../img/index_about2.png);
+}
+
+div.mainWrap main .mnView .imgGroup .i4 {
+  background-image: url(../img/index_port.png);
+}
+
+div.mainWrap main .mnView .imgGroup .i5 {
+  background-image: url(../img/index_exp.png);
+}
+
+div.mainWrap main .textView {
+  width: 70%;
+  height: 160px;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div.mainWrap main .textView .textGroup h3 {
+  font-family: 'Neoneon';
+  line-height: 160px;
+  font-size: 7.5rem;
+  text-align: center;
+  color: #f374ff;
+  text-shadow: 1px -1px 1px #fff, 1px 1px 1px #fff, 0 0 10px, 0 0 10px #ee34ff, 0 0 10px #ee34ff, 0 0 10px #ee34ff, 0 0 10px #ee34ff;
+}
+
+div.mainWrap main .textView .textGroup h3.fliker {
+  -webkit-animation: flicker 2.5s 1;
+          animation: flicker 2.5s 1;
+}
+
+@-webkit-keyframes flicker {
+  11%, 40%, 51%, 70%, 85%, 91%, 100% {
+    text-shadow: 1px -1px 1px #fff, 1px 1px 1px #fff, 0 0 10px, 0 0 10px #ee34ff, 0 0 10px #ee34ff, 0 0 10px #ee34ff, 0 0 10px #ee34ff;
+  }
+  0%, 1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%,
+  42%, 43%, 44%,
+  54%, 80%, 86%, 87%, 88%, 89%, 90% {
+    text-shadow: none;
+  }
+}
+
+@keyframes flicker {
+  11%, 40%, 51%, 70%, 85%, 91%, 100% {
+    text-shadow: 1px -1px 1px #fff, 1px 1px 1px #fff, 0 0 10px, 0 0 10px #ee34ff, 0 0 10px #ee34ff, 0 0 10px #ee34ff, 0 0 10px #ee34ff;
+  }
+  0%, 1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%,
+  42%, 43%, 44%,
+  54%, 80%, 86%, 87%, 88%, 89%, 90% {
+    text-shadow: none;
+  }
+}
+
+div.mainWrap main .nav {
+  width: 200px;
+  position: absolute;
+  margin: auto;
+  height: 320px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+div.mainWrap main .nav .asideContainer {
+  height: 320px;
+  position: relative;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 240px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNameView {
+  width: 70%;
+  height: 80px;
+  overflow: hidden;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNameView .pageNameGroup li {
+  line-height: 80px;
+  text-align: right;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNumView {
+  width: 30%;
+  height: 240px;
+  overflow: hidden;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNumView .pageNumGroup li {
+  font-size: 12px;
+  line-height: 80px;
+  text-align: center;
+  font-weight: 500;
+  color: #999999;
+}
+
+div.mainWrap main .nav .asideContainer .pageGroup .pageNumView .pageNumGroup .selected {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+div.mainWrap main .nav .asideContainer .btns {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.mainWrap main .nav .asideContainer .btns button {
+  display: block;
+  background-color: transparent;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+}
+
+div.ftrWrap {
+  padding: 0;
+  background-color: transparent;
+}
+
+div.ftrWrap footer .hrGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.ftrWrap footer .hrGroup hr {
+  width: 60px;
+  height: 4px;
+  background-color: #6dcff6;
+  display: block;
+  margin-top: 20px;
+  margin-right: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.ftrWrap footer .hrGroup p {
+  line-height: 40px;
+  font-family: 'Krona One';
+}
+
+div.ftrWrap footer .ulGroup {
+  color: #999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.ftrWrap footer .ulGroup .rightUl li:hover {
+  color: #fff;
+}
+
+div.ftrWrap footer .ulGroup .leftUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.ftrWrap footer .ulGroup .leftUl li {
+  margin-left: 10px;
+}
+
+div.ftrWrap footer .ulGroup .leftUl li:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,26 @@
+div.mainWrap main article .image {
+  height: 420px;
+}
+
+div.partic section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.partic section article {
+  width: calc(50% - 20px);
+}
+
+div.partic section article:nth-of-type(2) ~ article {
+  margin-top: 40px;
+}
+
+div.keyword section article h4 {
+  width: 160px;
+}
+/*# sourceMappingURL=personal_mx1080.css.map */

@@ -1,0 +1,599 @@
+@import url(all.css);
+/*인터넷이 연결되어 있는 상태*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+/*인터넷이 연결되지 않은 상태*/
+@import url(xeicon.css);
+
+@font-face {
+    font-family: 'Neoneon';
+    font-weight: 700;
+    src: url(../fonts/Neoneon.otf);
+}
+
+@font-face {
+    font-family: 'Krona One';
+    src: url(../fonts/KronaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'malgun';
+    font-weight: 300;
+    src: url(../fonts/malgunsl.ttf);
+}
+
+@font-face {
+    font-family: 'malgun';
+    font-weight: 500;
+    src: url(../fonts/malgun.ttf);
+}
+
+@font-face {
+    font-family: 'malgun';
+    font-weight: 700;
+    src: url(../fonts/malgunbd.ttf);
+}
+@font-face {
+    font-family: 'Typo_BaekbeomB';
+    font-weight: 500;
+    src: url(../fonts/Typo_BaekbeomB.ttf);
+}
+
+body {
+    background-color: #05042a;
+    font-family: 'malgun';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Neoneon';
+}
+
+h4 {
+    font-family: 'Krona One';
+}
+
+button {
+    cursor: pointer;
+}
+
+.flicker {
+    animation: flicker 2.5s 1;
+}
+
+@keyframes flicker {
+
+    11%,
+    40%,
+    51%,
+    70%,
+    85%,
+    91%,
+    100% {
+
+        text-shadow:
+            1px -1px 1px #fff,
+            1px 1px 1px #fff,
+            0 0 10px,
+            0 0 10px #ee34ff,
+            0 0 10px #ee34ff,
+            0 0 10px #ee34ff,
+            0 0 10px #ee34ff;
+    }
+
+    0%,
+    1%,
+    2%,
+    3%,
+    4%,
+    5%,
+    6%,
+    7%,
+    8%,
+    9%,
+    10%,
+    42%,
+    43%,
+    44%,
+    54%,
+    80%,
+    86%,
+    87%,
+    88%,
+    89%,
+    90% {
+        text-shadow: none;
+    }
+}
+.flicker_pink {
+    animation: flicker_pink 2.5s 1;
+    text-shadow:1px -1px 1px #ee34ff,
+    1px 1px 1px #fff,
+    0 0 4px,
+    0 0 6px #ee34ff,
+    0 0 8px #ee34ff,
+    0 0 10px #ee34ff;
+}
+
+@keyframes flicker_pink {
+
+    11%,
+    40%,
+    51%,
+    70%,
+    85%,
+    91%,
+    100% {
+
+        text-shadow: 1px -1px 1px #ee34ff,
+            1px 1px 1px #ee34ff,
+            0 0 2px,
+            0 0 4px #ee34ff,
+            0 0 4px #ee34ff,
+            0 0 4px #ee34ff;
+        ;
+    }
+
+    0%,
+    1%,
+    2%,
+    3%,
+    4%,
+    5%,
+    6%,
+    7%,
+    8%,
+    9%,
+    10%,
+    42%,
+    43%,
+    44%,
+    54%,
+    80%,
+    86%,
+    87%,
+    88%,
+    89%,
+    90% {
+        text-shadow: none;
+    }
+}
+.flicker_blue {
+    animation: flicker_blue 2.5s 1;
+    text-shadow: 1px -1px 1px #00c2fa,
+    1px 1px 1px #00c2fa,
+    0 0 2px,
+    0 0 4px #00c2fa,
+    0 0 4px #00c2fa,
+    0 0 4px #00c2fa;
+;
+}
+
+@keyframes flicker_blue {
+
+    11%,
+    40%,
+    51%,
+    70%,
+    85%,
+    91%,
+    100% {
+
+        text-shadow: 1px -1px 1px #00c2fa,
+            1px 1px 1px #00c2fa,
+            0 0 2px,
+            0 0 4px #00c2fa,
+            0 0 4px #00c2fa,
+            0 0 4px #00c2fa;
+        ;
+    }
+
+    0%,
+    1%,
+    2%,
+    3%,
+    4%,
+    5%,
+    6%,
+    7%,
+    8%,
+    9%,
+    10%,
+    42%,
+    43%,
+    44%,
+    54%,
+    80%,
+    86%,
+    87%,
+    88%,
+    89%,
+    90% {
+        text-shadow: none;
+    }
+}
+.flicker_yello {
+    animation: flicker_yello 2.5s 1;
+    text-shadow: 
+    1px -1px 1px #facb0e,
+        1px 1px 1px #000,
+        0 0 10px,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e;
+}
+
+@keyframes flicker_yello {
+
+    11%,
+    40%,
+    51%,
+    70%,
+    85%,
+    91%,
+    100% {
+
+        text-shadow: 1px -1px 1px #facb0e,
+        1px 1px 1px #000,
+        0 0 10px,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e;
+        ;
+    }
+
+    0%,
+    1%,
+    2%,
+    3%,
+    4%,
+    5%,
+    6%,
+    7%,
+    8%,
+    9%,
+    10%,
+    42%,
+    43%,
+    44%,
+    54%,
+    80%,
+    86%,
+    87%,
+    88%,
+    89%,
+    90% {
+        text-shadow: none;
+    }
+}
+
+/*헤더*/
+
+div.menuWrap {}
+
+div.menuWrap menu {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+div.hdrWrap {
+    width: 100%;
+    /* position: absolute; */
+}
+
+div.hdrWrap header {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div.hdrWrap header h1 {
+    font-size: 16px;
+    line-height: 40px;
+    
+}
+div.hdrWrap header h1 img{
+    height: 40px;
+    width: auto;
+}
+
+div.hdrWrap header h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+div.hdrWrap header nav {
+    display: none;
+}
+@media(max-width:780px){
+    div.hdrWrap header nav {
+        display: block;
+    }
+}
+
+
+/* navWrap */
+div.navWrap{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    background-color: #000;
+    z-index: 9999;
+}
+div.navWrap nav {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  
+  div.navWrap nav ul li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  div.navWrap nav ul li:hover {
+    font-weight: 700;
+  }
+
+div.mainWrap {}
+
+div.mainWrap main {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+div.mainWrap main header h3 {
+    font-family: 'Neoneon';
+    font-size: 72px;
+    line-height: 80px;
+}
+
+
+/*콘텐츠*/
+div.content {
+    padding: 200px 0;
+    overflow-x: hidden;
+}
+@media(max-width:780px){
+    div.content {
+        padding: 120px 0;
+        overflow-x: hidden;
+    }
+}
+@media(max-width:420px){
+    div.content {
+        padding: 80px 0;
+        overflow-x: hidden;
+    }
+}
+
+div.content header {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+div.content header hr {
+    width: 15px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #facb0e;
+    display: inline-block;
+}
+
+div.content header h3 {
+    width: 30%;
+    font-family: 'Krona One';
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+div.content header p {
+    width: calc(70% - 20px);
+    margin: 0 10px;
+}
+@media(max-width:420px){
+    div.content header{
+        flex-wrap: wrap;
+        justify-content: start;}
+    div.content header h3{
+            width: 70%;
+        }
+    div.content header p{
+            width: 100%;
+        }
+    }
+div.content section {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+div.content section h4 {
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+}
+
+div.content section h5 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 40px;
+    color: #333;
+}
+
+div.content section p {
+    overflow: hidden;
+}
+
+div.content section nav {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+}
+
+/*배너(콘텐츠에서 헤더가 없는 상태)*/
+div.banner {
+   
+    /* overflow-x: hidden; */
+}
+
+div.banner section {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/*footer*/
+div.ftrWrap {
+    padding: 80px 0;
+    background-color: #fff;
+
+}
+
+div.ftrWrap footer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.ftrWrap footer h1 {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+div.ftrWrap footer button {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-family: 'malgun';
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #07175f;
+    border: 0;
+    border-radius: 5px;
+    box-shadow:
+        1px 1px 1px #fff,
+        0 0 10px,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e,
+        0 0 10px #facb0e;
+    color: #fff;
+}
+
+div.ftrWrap footer button:hover {
+    color: #facb0e;
+}
+
+div.ftrWrap footer p {
+    font-family: 'Noto Sans KR';
+}
+
+/* topmenu */
+div.tapMenu {
+    position: fixed;
+    left: 0;
+    top: 120px;
+    width: 240px;
+    cursor: pointer;
+}
+@media(max-width:780px){
+    div.tapMenu{
+        display: none;
+    }
+}
+div.tapMenu .tapBar {
+    width: 120px;
+    height: 60px;
+    font-family: 'Neoneon';
+    line-height: 60px;
+    background-color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    border-radius: 0px 20px 20px 0;
+    margin-left: -40px;
+    color: #07175f;
+}
+
+div.tapMenu .tapBar:hover {
+    color: #6dcff6;
+}
+
+div.tapMenu .tapNav {
+    display: none;
+    width: 50%;
+    
+}
+
+div.tapMenu .tapNav li {
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+div.tapMenu .tapNav li:hover {
+    font-weight: 700;
+    text-shadow: 
+    1px 0px 1px #666,
+    -1px 0px 1px #666,
+    0px 1px 1px #666,
+    0px -1px 1px #666;
+}
+
+div.tapMenu .tapNav .tapNav:hover .tapBar {
+    color: #6dcff6;
+}
+
+div.btTop {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    right: 120px;
+    font-family: 'Neoneon';
+}
+@media (max-width: 420px){
+    div.btTop{
+        display: none;
+    }
+}
+
+div.btTop:hover {
+    color: #6dcff6;
+    box-shadow: 1px 1px 2px #fff;
+}

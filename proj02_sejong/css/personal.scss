@@ -1,0 +1,500 @@
+header {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+
+    h3 {
+        font-weight: bold; font-size: 36px; color: #000; line-height: 80px;
+        span{
+            font-size: 18px; color: #555;
+            padding-left: 20px;
+            margin-left: 20px;
+            border-left: 3px solid #555;
+        }
+    }
+    p{}
+}
+
+section {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.content {
+    padding: 160px 0;
+}
+
+
+div.mainWrap {
+    // height: calc(100vh - 40px);
+    background-image: url();
+    background-color: #798179;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/index_main_i1.jpg);
+    
+
+    main {
+        width: 90%;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 80px 0;
+
+        h3 {
+            font-weight: 700;
+            font-size: 72px;
+            color: #fff;
+            line-height: 80px;
+        }
+
+        article {
+            margin-top: 80px;
+            width: 66.66%;
+            margin-left: auto;
+
+            // background-color: #ccc;
+            .image {
+                height: 520px;
+                background-image: url(../img/personal_mockup.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .mouse {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+
+            .mouseIcon {
+                width: 30px;
+                height: 45px;
+                border: 4px solid white;
+                border-radius: 15px;
+                cursor: pointer;
+                position: relative;
+                text-align: center;
+
+                .mouseWheel {
+                    height: 8px;
+                    margin: 2px auto 0;
+                    display: block;
+                    width: 4px;
+                    background-color: white;
+                    border-radius: 50%;
+                    animation: 1.6s ease infinite wheel-up-down;
+                }
+
+                @keyframes wheel-up-down {
+                    0% {
+                        margin-top: 2px;
+                        opacity: 0;
+                    }
+
+                    30% {
+                        opacity: 1;
+                    }
+
+                    100% {
+                        margin-top: 20px;
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+div.overView {
+    header {
+
+
+        h3 {}
+
+        hr {}
+
+        p {}
+    }
+}
+
+div.partic {
+    section {
+        display: flex;
+        justify-content: space-between;
+
+        .artGroup {
+            margin: 0 auto;
+            margin-top: 40px;
+            width: calc(50% - 20px);
+
+            article {
+                margin-top: 80px;
+
+                &:nth-of-type(1) {
+                    margin-top: 0;
+                }
+                h4{
+                    font-weight: 700;
+                    color: #ff9900;
+                }
+                ul {
+                    width: 100%;
+                    background-color: #fff;
+                    border: 1px solid #ff9900;
+                    border-radius: 7px;
+                    overflow: hidden;
+                    margin-top: 20px;
+                    li {
+                        width: 0%;
+                        height: 15px;
+                        background-color:#555;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+div.design {
+    background-color: #ff9900;
+    header{
+        h3{
+            color: #fff;
+            span{
+                color: #fff;
+            }
+        }
+    }
+    section {
+        display: flex;
+
+        .artGroup {
+            width: calc(50% - 20px);
+            article {
+                .texts{
+                    h4{
+                        font-size: 24px;
+                        color: #fff;
+                        line-height: 80px;
+                        position: relative;
+                        span{
+                            font-size: 36px;
+                            color: rgba(255, 255, 255, 0.3);
+                            font-weight: 900;
+                            font-style: italic;
+                            position: absolute;
+                            z-index: -100;
+                            line-height: 80px;
+                            top: -20px;
+                            left: -20px;
+                            }
+                    }
+                }
+            }
+        }
+        article{
+            .texts{
+                text-align: center;
+                h4{
+                    font-size: 36px;
+                    line-height: 80px;
+                    color: #fff;
+                    font-weight: 700;
+                }
+                h5{
+                    color: #ffcc66;
+                    font-size: 18px;
+                }
+                p{
+                    margin-top: 20px;
+                    color: #fff;
+                }
+            }
+            width: calc(50% - 20px);
+        }
+
+    }
+}
+
+div.keyword {
+    section {
+        display: flex;
+        justify-content: space-around;
+
+        article {
+            width: 33.33%;
+            text-align: center;
+            h4{
+                font-size: 24px;
+                line-height: 40px;
+                color: #ff9900;
+            }
+        }
+    }
+}
+
+div.trends {
+    section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        article {
+            width: calc(50% - 20px);
+            text-align: center;
+
+            .image {
+                height: 240px;
+                background-size: cover;
+                border: 1px solid #000;
+            }
+
+            .texts {
+                h4{
+                    font-size: 24px;
+                line-height: 40px;
+                color: #000;
+                }
+            }
+
+            .i1 {
+                background-image: url(../img/personal_trena_i1.jpg);
+            }
+
+            .i2 {
+                background-image: url(../img/personal_trena_i2.jpg);
+            }
+        }
+    }
+}
+
+div.colorSystem {
+    section {
+        display: flex;
+        justify-content: space-around;
+
+        article {
+            width: calc(33.33% - 20px);
+
+            .colorBox {
+                width: 60%;
+                height: 40px;
+                margin: 0 auto;
+            }
+
+            .cb1 {
+                background-color: #ff9900;
+
+
+            }
+
+            .cb2 {
+                background-color: #000000;
+
+            }
+
+            .cb3 {
+                background-color: #00BFF3;
+
+            }
+
+            .colorName {
+                margin: 0 auto;
+                margin-top: 40px;
+                width: 60%;
+                height: 60px;
+                font-size: 18px;
+                line-height: 60px;
+                text-align: center;
+                border-radius: 5px;
+            }
+
+            .cn1 {
+                color: #ff9900;
+            }
+
+            .cn2 {
+                color: #000000;
+            }
+
+            .cn3 {
+                color: #00BFF3;
+            }
+        }
+    }
+}
+
+div.typoSystem {
+    background-color: #f90;
+    section {
+        article {
+            // border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            h4{
+                width: 50%;
+                font-size: 48px;
+                line-height: 60px;
+                color: #000;
+            }
+            ul {
+                padding: 40px 0;
+                width: 50%;
+                font-size: 24px;
+                line-height: 40px;
+                color: #000;
+                li {
+                    font-size: 14px;
+                    line-height: 40px;
+                    &:nth-of-type(1) {
+                        font-weight: 300;
+                    }
+                    &:nth-of-type(3) {
+                        font-weight: 700;
+                    }
+                    &:nth-of-type(5) {
+                        text-transform: uppercase;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+div.web {
+    section {
+        display: flex;
+        justify-content: space-between;
+
+        article {
+            width: calc(50% - 20px);
+            height: 760px;
+            position: relative;
+
+            header {
+                width: 100%;
+            }
+
+            .texts {
+                margin-top: 80px;
+            }
+
+            .gridSystem {
+                width: 100%;
+                position: absolute;
+                margin: auto;
+                bottom: 0;
+
+                .gridView {
+                    width: calc(100% / 3 * 2 - 20px);
+                    height: 240px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    background-image: url(../img/personal_grid.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                h4 {
+                    text-align: right;
+                }
+            }
+        }
+
+        .ovgrid {
+            width: calc(50% - 20px);
+
+            .image {
+                width: calc((100vw - 1080px) / 2 + 100%);
+                height: 760px;
+                // border: 1px solid #fff;
+                // border-left: 0;
+                background-image: url(../img/web_Mockup.png);
+                background-position: 0 0;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+
+div.mobile {
+    section {
+        display: flex;
+        justify-content: space-between;
+
+        article {
+            width: calc(50% - 20px);
+            height: 640px;
+            position: relative;
+
+            header {
+                width: 100%;
+            }
+
+            .texts {
+                margin-top: 80px;
+            }
+
+            .gridSystem {
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+
+                .gridView {
+                    width: calc(100% / 6 * 2 - 60px);
+                    height: 200px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    background-image: url(../img/personal_jeep_mobileGrid_i1.jpg);
+                    background-size: cover;
+                }
+
+                h4 {
+                    text-align: right;
+                }
+            }
+        }
+
+        .ovgrid {
+            width: calc(50% - 20px);
+
+            .image {
+                width: calc((100vw - 1320px) / 2 + 100%);
+                height: 640px;
+                // border: 1px solid #fff;//
+                background-image: url(../img/personal_jeep_mobile_mockUpImg.png);
+                background-position: 0 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+div.ftrWrap {
+    padding: 80px;
+    background-color: #000;
+    background-position: bottom;
+        .btn{
+            font-size: 16px;
+            line-height: 40px;
+            width: 160px;
+            height: 40px;
+            background-color: #f90;
+            text-align: center;
+            color: #000;
+            margin: 0 auto;
+        }
+}

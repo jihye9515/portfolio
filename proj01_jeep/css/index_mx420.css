@@ -1,0 +1,210 @@
+body{
+    /* background-color: #ccc; */
+}
+
+/*유틸메뉴*/
+div.mnWrap{
+    display: none;
+    background-color: #333;
+}
+
+
+div.hdrWrap{
+    background-color: #000;
+    padding: 20px 0;
+}
+div.hdrWrap>.header{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    float: none;
+}
+div.hdrWrap>.header>h1{
+    width: 100%;
+    text-align: center;
+}
+div.hdrWrap>.header>ul{
+    width: 100%;
+   overflow: hidden; 
+   float: none;
+   /* margin: 0 auto; */
+   text-align: center;
+}
+div.hdrWrap>.header>ul>li{
+    width: 25%;
+    float: left; line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    margin-left: 0;
+}
+div.mainImg{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+/* content */
+div.content{
+    padding: 80px 0;
+}
+div.content>.section>.header{
+    margin: 0;
+    float: none;
+}
+div.content>.section>.header>h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+div.content .header hr {
+    margin-top: 40px;
+    
+}
+div.content .header p{
+    text-align: center;
+}
+div.content>.section>.header>.btn{
+    text-align: center;
+    margin-top: 40px;
+}
+div.content>.section{
+    margin-top: 0;
+}
+div.content>.section>.article{
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+}
+div.content>.section>.article>.image{
+    width: 100%;
+    height: 320px;
+}
+/*rubicon*/
+div.rubicon{}
+div.rubicon>.section>.header{
+    padding-top: 0;
+}
+div.rubicon>.section{
+    margin-top: 0;
+}
+
+div.rubicon>.section>div{
+    width: 100%;
+    float: none;
+    /* margin: 0 10px; */
+    text-align: center;
+}
+div.rubicon>.section>.article{
+    width: 100%;
+    height: 320px;
+   
+}
+div.rubicon>.section>.article>.image{
+    width: 100%;
+    height: 320px;
+    background-color: aliceblue;
+    margin-top: 40px;
+    background-image: url(../img/index_rubicon_i1.jpg);
+    background-size: cover;
+    background-position:left;
+    }
+
+
+/*renegade*/
+div.renegade{
+    background-color: #000;
+    padding-top: 80px;
+   
+}
+div.renegade>.section{
+    margin-top: 0;
+}
+div.renegade>.section::after{
+    
+}
+div.renegade>.section>div{
+    width: 100%;
+    text-align: center;
+}
+div.renegade>.section>.header{
+}
+div.renegade>.section>.header>h2{
+}
+div.renegade>.section>.article>.image{
+    height: 320px;
+    background-image: url(../img/index_renegade_i1.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+
+/*cherokee*/
+div.cherokee{
+    /* display: none; */
+}
+div.cherokee>.section{}
+div.cherokee>.section>.header{
+    width: 100%;
+    text-align: center;
+}
+div.cherokee>.section>.article>.image{
+    height: 320px;
+    background-image: url(../img/index_cherokee_i1.jpg);
+    background-size: auto 100%;
+    background-position: left;
+    
+}
+
+
+/*gallery*/
+div.gallery{
+    background-color: #000;
+    padding-top: 80px;
+}
+div.gallery>.header{
+    text-align: center;
+}
+div.gallery>.header h2{
+    font-size: 36px;
+    line-height: 40px;
+}
+
+div.gallery>.section{
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.gallery>.section>.article{
+
+}
+div.gallery>.section>.article>.image{
+    height: 200px;
+}
+div.gallery>.section>.article>.i1{
+    /* height: 480px; */
+    background-image: url(../img/index_gallery_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.gallery>.section>.article>.mt{
+    margin-top: 20px;
+}
+div.gallery>.section>.article>.i2{
+    background-image: url(../img/index_gallery_i2%20.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.gallery>.section>.article>.i3{
+    background-image: url(../img/index_gallery_i3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.gallery>.section>.article>.i4{
+    background-image: url(../img/index_gallery_i4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.gallery>.section>.article>.i5{
+    background-image: url(../img/index_gallery_i5.jpg);
+    background-size: cover;
+    background-position: center;
+}

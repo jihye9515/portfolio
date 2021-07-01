@@ -1,0 +1,46 @@
+
+div.mnWrap main header .btnGroup{
+    display: flex;
+    justify-content: space-around;
+}
+div.magazine .sect1 article{
+    display: block;
+}
+div.magazine .sect1 article figure{
+    width: 100%;
+}
+div.magazine .sect1 article .texts{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+div.magazine .sect1 article .texts h5{
+    margin-top: 20px;
+}
+div.magazine .sect2{
+    display: block;
+}
+div.magazine .sect2 article{
+    width: 100%;
+    margin-top: 40px;
+}
+div.magazine .sect2 article figure{
+    margin: 0 auto;
+}
+div.magazine .sect2 footer{
+    text-align: center;
+}
+
+div.brandVideo section{
+}
+div.brandVideo section article{
+    width: calc(50% - 20px);
+     margin: 0 10px;
+     margin-top: 40px;
+}
+div.brandVideo section article:nth-of-type(1,2){
+    margin-top: 0;
+}
+div.brandVideo section article:nth-of-type(6)~article{
+    display: none;
+}

@@ -1,0 +1,214 @@
+/* index.css */
+div.mnWrap{
+    background-image: url(../img/main_img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.ct1{
+    background : linear-gradient(to right, #000 0%, #000 100%);
+    background-repeat: no-repeat;
+    background-size: 40% 560px;
+    background-position: right top;
+}
+div.ct1 section{
+    margin-top: 0;
+}
+div.ct1 section article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.ct1 section article:nth-of-type(2){
+    margin-top: 40px;
+}
+div.ct1 section article .texts{
+    width: calc(100% / 12 * 5 - 20px);
+    padding-left: 36px;
+}
+div.ct1 section article:nth-of-type(1) .texts{
+    text-align: right;
+    padding-right: 36px;
+    
+}
+div.ct1 section article .texts p{
+    margin-top: 20px;
+}
+div.ct1 section article .texts nav{
+    margin-top: 40px;
+}
+
+div.ct1 section article figure{
+    width: calc(100% / 12 * 7 - 20px);
+    height: 360px;
+    background-color: #ccc;
+}
+div.ct1 section article .i1{
+    background-image: url(../img/index_ct1_i.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct1 section article .i2{
+    background-image: url(../img/index_ct1_i2.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+
+div.banner{
+    background-image: url(../img/index_banner.jpg);
+    height: 480px;
+    display: flex;
+    align-items: center;
+}
+div.banner section{}
+div.banner section .texts{
+    text-align: center;
+    
+}
+div.banner section .texts h3{
+    font-family: 'GyeonggiBatang';
+}
+div.banner section .texts p{}
+
+
+div.bestProduct{}
+div.bestProduct section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 180px;
+    position: relative;
+}
+div.bestProduct section article{
+    width: calc(33.33% - 20px);
+    border: 4px solid #fc0;
+    
+}
+div.bestProduct section article figure{
+    width: calc(100% - 40px);
+    height: 240px; 
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: -120px; 
+}
+div.bestProduct section article .i1{
+    background-image: url(../img/index_bestProduct_i1.jpg);
+    background-position: center;
+}
+div.bestProduct section article .i2{
+    background-image: url(../img/index_bestProduct_i2.jpg);
+    background-position: center;
+}
+div.bestProduct section article .i3{
+    background-image: url(../img/index_bestProduct_i3.jpg);
+    background-position: center;
+}
+div.bestProduct section article .texts{
+    text-align: center;
+    padding: 20px 0;
+}
+div.bestProduct section article .texts h4{
+}
+div.bestProduct section article .texts h5{
+    font-weight: 500;
+
+}
+div.bestProduct section article .texts p{
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+
+div.cnpPublic{
+    background-color: blanchedalmond;
+}
+div.cnpPublic section{
+    display: flex;
+    justify-content: space-between;
+}
+div.cnpPublic section article{
+    width: calc(25% - 20px);
+    height: 240px;
+    background-position: center;
+    background-size: cover;
+}
+div.cnpPublic section .i1{
+    background-image: url(../img/index_brandPR_i\ 1.jpg);
+}
+div.cnpPublic section .i2{
+    background-image: url(../img/index_brandPR_i\ 2.jpg);
+}
+div.cnpPublic section .i3{
+    background-image: url(../img/index_brandPR_i\ 3.jpg);
+}
+div.cnpPublic section .i4{
+    background-image: url(../img/index_brandPR_i\ 4.jpg);
+}
+
+
+
+div.review{}
+div.review section{
+    display: flex;
+    justify-content: space-around;
+}
+div.review section article{
+    width: calc(33.33% - 60px);
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+div.review section article figure{
+    height: 240px;
+    width: 100%;
+    background-color: #888;
+    position: relative;
+    margin-top: 20px;
+    background-position: center;
+    background-size: cover;
+}
+div.review section article .i1{
+    background-image: url(../img/sub4_review_i1.jpg);
+}
+div.review section article .i2{
+    background-image: url(../img/sub4_review_i2.jpg);
+}
+div.review section article .i3{
+    background-image: url(../img/sub4_review_i3.jpg);
+}
+
+div.review section article figure button{
+    position: absolute;
+    bottom: 0; right: -40px;
+    background-color: #fff;
+}
+div.review section article .texts{}
+div.review section article .texts .rating{
+    display: flex;
+    justify-content: flex-end;
+}
+div.review section article .texts .rating i{
+    color: #ccc;
+}
+div.review section article .texts .rating .on{
+    color: #ccc;
+}
+/* div.review section article .texts .rating .un{
+    color: #ccc;
+} */
+div.review section article .texts h5{
+    font-size: 180px; line-height: 120px;
+    letter-spacing: -20px;
+    color: #eee;
+}
+div.review section article .texts h4{
+    font-size: 36px; font-weight: 700;
+    line-height: 40px;
+    margin-top: -40px;
+}
+div.review section article .texts p{margin-top: 20px;}
+
+
+
+
+

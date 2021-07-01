@@ -1,0 +1,145 @@
+
+div.mnWrap{
+    display: none;
+    background-color: #333;
+}
+
+
+div.hdrWrap{
+    background-color: #000;
+    padding: 20px 0;
+}
+div.hdrWrap>.header{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    float: none;
+}
+div.hdrWrap>.header>h1{
+    width: 100%;
+    text-align: center;
+}
+div.hdrWrap>.header>ul{
+    width: 100%;
+   overflow: hidden; 
+   float: none;
+   /* margin: 0 auto; */
+   text-align: center;
+}
+div.hdrWrap>.header>ul>li{
+    width: 25%;
+    float: left; line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    margin-left: 0;
+}
+div.mainImg{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+/* content */
+div.content{
+    padding: 80px 0;
+}
+div.content .header  h2{
+    font-size: 36px;
+    line-height: 40px;
+}
+div.content>.section{
+    margin-top: 40px;
+}
+
+
+
+div.findAstore>.section>.article>.segment{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+div.findAstore>.section>.article>.segment>.place>*{
+    margin: 0 auto; float: none; 
+}
+div.findAstore>.section>.article>.segment>.place>.go{
+    width: 70%;
+    padding-left: 0;
+}
+div.findAstore>.section>.article>.segment>.place>:nth-of-type(3){
+    margin-top: 20px;
+}
+
+div.findAstore>.section>.article>.segment>.store>*{
+    margin: 0 auto; float: none;
+}
+div.findAstore>.section>.article>.segment>.store>.go{
+     width: 70%;  text-align: right;
+   padding-right: 10px;
+}
+div.findAstore>.section>.article>.image{
+    width: 100%;
+    float: none;
+    margin: 0;
+    margin-top: 40px;
+}
+div.pressRoom>.section{
+    margin-top: 40px;
+}
+div.pressRoom>.section>.article{
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    outline: 1px solid;
+    position: relative;
+    margin-top: 40px;
+}
+div.pressRoom>.section>.article:nth-of-type(1){
+    margin-top: 0;
+}
+div.pressRoom>.section>.article>.image{
+    height: 280px; background-color: antiquewhite;
+}
+
+
+div.brandStory>.section{
+    margin-top: 40px;
+}
+div.brandStory>.section>.article{
+    overflow: hidden;
+}
+div.brandStory>.section>.article>.artGroup{
+    width: calc(50% - 20px); 
+    float: left;
+    margin: 0 10px;
+}
+div.brandStory>.section>.article>.artGroup>.image{
+    color: #000; text-align: right;
+    background-color: #ccc; padding: 20px;
+    height: 240px;
+}
+div.brandStory>.section>.article>.artGroup>.i1{
+    
+    background-image: url(../img/sub3_brandstory_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}    
+div.brandStory>.section>.article>.artGroup>.i2{
+    height: 240px; margin-top: 0;
+    background-image: url(../img/sub3_brandstory_i2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+div.brandStory>.section>.article>.artGroup>.i3{
+    height: 240px; margin-top: 0;
+    background-image: url(../img/sub3_brandstory_i3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.brandStory>.section>.article>.artGroup>.i4{
+    height: 240px; margin-top: 0;
+    background-image: url(../img/sub3_brandstory_i4.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}

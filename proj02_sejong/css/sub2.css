@@ -1,0 +1,148 @@
+/*sub2.css*/
+
+/*main*/
+div.main{
+    background-image: url(../img/sub2_main_i1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.main>.header{
+    padding: 240px 0;
+}
+
+/*content rant*/
+div.rant>{}
+div.rant>.header{}
+div.rant>.section{
+}
+div.rant>.section>h4{
+    margin-left: 20px;
+}
+div.rant>.section>.article{
+    overflow:hidden;  
+}
+div.rant>.sect1>.article>.art{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ffaa15;
+    border-radius: 100%;
+    text-align: center;
+    float: left;
+    margin: 0 45px;
+    padding: 40px 0;
+    margin-top: 40px; 
+}
+div.rant>.sect1>.article>.art>h5{
+    color: #ffaa15; line-height: 20px;
+}
+div.rant>.sect1>.article>.art>p{}
+div.rant>.footer{
+    text-align: center;
+}
+
+/*content theater*/
+div.theater{}
+div.theater>.header{}
+div.theater>.section{
+    overflow: hidden;
+}
+div.theater>.section>.article{
+    overflow: hidden;
+    margin-top: 80px;
+}
+div.theater>.section>.article:nth-child(1).article{
+    margin-top: 0;
+}
+div.theater>.section>.article>h4{
+   margin-left: 20px;
+}
+div.theater>.section>.article>div{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    float: left;
+    margin-top: 40px;
+}
+div.theater>.section>.article:nth-child(2)>div{
+    float: right;
+}
+div.theater>.section>.article:nth-child(2)>.art2>div{
+    float: right;
+}
+div.theater>.section>.article .image{
+    background-color: #ccc;
+    margin: 0 10px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;   
+}
+div.theater>.section>.article>.art2{
+    overflow: hidden;
+}
+div.theater>.section>.article>.art2>.image{
+    width: calc(50% - 20px);
+    height: 160px;
+    float: left;
+}
+div.theater .segment{
+    padding: 10px;
+}
+div.theater>.section>.article .footer{
+    text-align: right;
+    width: 100%;
+    padding: 0 10px;
+}
+div.theater>.section>.article .i1{
+    background-image: url(../img/sub2_theater_i1.jpg);
+}
+div.theater>.section>.article .i2{
+    background-image: url(../img/sub2_theater_i2.jpg);
+}
+div.theater>.section>.article .i3{
+    background-image: url(../img/sub2_theater_i3.jpg);
+}
+div.theater>.section>.article .i4{
+    background-image: url(../img/sub2_theater_i4.jpg);
+}
+div.theater>.section>.article .i5{
+    background-image: url(../img/sub2_theater_i5.gif);
+}
+div.theater>.section>.article .i6{
+    background-image: url(../img/sub2_theater_i6.jpg);
+}
+div.theater>.section>.article .i7{
+    background-image: url(../img/sub2_theater_i7.jpg);
+}
+div.theater>.section>.article .i8{
+    background-image: url(../img/sub2_theater_i8.jpg);
+}
+div.theater>.section>.article .i9{
+    background-image: url(../img/sub2_theater_i9.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

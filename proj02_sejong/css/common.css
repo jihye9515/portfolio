@@ -1,0 +1,215 @@
+/*common.css*/
+@import url('../../css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+body{
+    font-family: "Noto Sans KR", "돋움", "Sans-serif";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    overflow-x: hidden;/* x축으로 스크롤 발생 안하게끔 */
+}
+*.clear::after{
+    display: block; content:'';
+    clear:both;
+}
+button{
+    border: 0;
+    cursor: pointer;
+}
+/*global header*/
+div.hdrWrap{
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+}
+div.hdrWrap>.header{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.hdrWrap>.header>h1{
+    font-size: 16px; line-height: 40px; color: #FFF;
+    float: left;
+}
+div.hdrWrap>.header>.menu{
+    color: #fff; font-size: 14px; line-height: 40px;
+    text-align: center;
+    width: 40px; height: 40px;
+    float: right; 
+    cursor: pointer;
+}
+div.navWrap{
+    background-color: rgba(0, 0, 0, 0.4); color: #fff;
+    padding: 20px 0;
+    position: absolute; 
+    width: 100%;
+    top: 40px;
+    display: none;
+}
+div.navWrap>.nav{
+    max-width: 1080px; width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #fff;
+}
+div.navWrap>.nav>dl{
+    width: calc(25% - 20px);
+    float: left;
+    font-size: 14px; line-height: 30px;
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+    
+}
+div.navWrap>.nav>dl>dt{
+    font-weight: 700;
+}
+div.navWrap>.nav>dl>dd:hover{
+    text-shadow: 2px 2px 5px #fff,
+    -2px -2px 5px #fff;
+}
+
+/*main*/
+div.main{}
+div.main>.header{
+    width: 90%; max-width: 1080px; margin: 0 auto;
+    /*background-color: #999*/
+    
+}
+div.main>.header>h3{
+    font-size: 36px; color: #fff; line-height: 40px;
+}
+div.main>.header>p{
+    font-size: 72px; color: #fff; line-height: 120px; font-weight: bold;
+}  
+
+
+/*global content*/
+div.content{
+    padding: 160px 0;
+    overflow-x: hidden;
+}
+div.content .header{
+    text-align: left;
+    width: 90%; max-width: 1080px;
+    margin: 0 auto;
+}
+div.content .header h2{
+    font-weight: bold; font-size: 36px; color: #000; line-height: 80px;
+}
+div.content .header h2 span{
+    font-size: 18px; color: #555;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 3px solid #555;
+}
+div.content .header p{}
+div.content .section{
+    width: 90%; 
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+div.content .section h3{
+    font-weight: 700; font-size: 18px; color: #000; line-height: 40px;
+}
+div.content .section h4{
+     font-weight: 300; font-size: 16px; color: #000; line-height: 40px;
+}
+div.content .section h5{
+    font-weight: 500; font-size: 12px; color: #333; line-height: 40px;
+}
+div.content .section p{}
+div.content .section .sns{
+    font-size: 30px; color: #000; line-height: 40px;
+}
+div.content button{
+    border: 0;
+}
+div.content .footer{
+    width: 90%; 
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+div.content .footer button{
+    width: 160px; height: 40px; background-color: #ffaa15;
+    color: #fff; border: 0;
+}
+/*banner*/
+div.banner{
+    padding: 80px 0;
+}
+div.banner .section{
+   width: 90%; max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/*global footer*/
+div.ftrWrap{
+    background-color: #000;
+}
+div.ftrWrap>.footer{
+    width: 90%; max-width: 1080px;
+    margin: 0 auto;
+    color: #fff; line-height: 40px;
+    padding: 80px 0;
+    overflow: hidden;
+}
+div.ftrWrap>.footer>.sns{
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto;
+}
+div.ftrWrap>.footer>.sns>.article{
+    float: left; 
+    width: 120px; height: 120px;
+    margin: 0 40px; 
+    border-radius: 100%;
+    border: 1px solid #fff; 
+    text-align: center;
+    padding: 40px;
+}
+div.ftrWrap>.footer>.sns>.article>i{
+    font-size: 36px; line-height: 40px;
+    color: #fff;
+}
+div.ftrWrap>.footer>.imfor{
+    float: left;
+    margin-top: 40px;
+}
+div.ftrWrap>.footer>.ml{
+    margin-left: 90px;
+}
+div.ftrWrap>.footer>.imfor>.mt{ margin-top: 40px; }
+div.ftrWrap>.footer>.imfor>ul>li{}
+div.ftrWrap>.footer>.fr{
+    float: right;
+    text-align: right;
+    margin-top: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

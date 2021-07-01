@@ -1,0 +1,71 @@
+body{
+    
+}
+div.mnWrap main article {
+    width: calc(100% - 100px);}
+div.mnWrap main article figure {
+     height: 360px;
+}
+div.mnWrap main article header button:nth-of-type(2){
+    margin-top: 20px;    
+}
+
+div.ct1 section article{
+    margin-top: 80px;
+}
+div.ct1 section article figure{
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    background-position: 100%;
+}
+div.ct1 section article .texts{
+    padding-left: 30px;
+}
+
+div.banner section .texts{
+    padding: 0;
+}
+
+div.banner{
+    height: 400px;
+}
+div.b1{
+    background-size: 150%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/*content best tip*/
+div.bestTip section{
+    flex-wrap: wrap;
+}
+div.bestTip section article{
+    width: calc(50% - 20px);
+}
+div.bestTip section article figure{
+    margin: 0 auto;
+}
+
+div.other section .artContianer .artGroup article{
+    height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

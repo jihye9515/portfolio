@@ -1,0 +1,167 @@
+div.mainWrap{
+    background-image: url(../img/exprience_main_i1.jpg);
+        background-position: center;
+        background-size: cover;
+    main{
+        height: 720px;
+        display: flex;
+        align-items: flex-end;
+        header{
+            h3{
+                color: #facb0e;
+                text-shadow: 1px -1px 1px #facd02,
+                1px 1px 1px #000,
+                0 0 10px,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e;
+            animation: flicker_yello 2.5s 1;
+            }
+            p{
+                line-height: 40px;
+                text-align: right;
+            }
+        }
+    }
+}
+div.content{
+    section{
+        display: flex;
+        justify-content: space-around;
+        .texts{
+            width: calc(50% - 20px);
+            h3{
+                font-family: 'Krona One';
+                font-size: 36px;
+                line-height: 60px;
+            }
+            p{margin-top: 40px;}
+        }
+        .image{
+            width: calc(50% - 20px);
+        }
+    }
+}
+div.ct01{
+    height: 1130px;
+    section{
+        justify-content: space-around;
+        .rightImg{
+            width: calc(50% - 20px);
+            .imgGroup{
+                display: flex;
+                justify-content: flex-end;
+                }
+            .mt20{
+                margin-top: 20px;
+            }
+            .image{
+                width: calc(33.33% - 20px);
+                height: 200px;
+                background-color: rgb(22, 19, 68);
+                border-radius: 10px;
+                margin-left: 20px;
+                background-size: cover;
+                background-position: center;
+                &:hover{
+                    width: calc(33.33% - 10px);
+                    height: 210px;
+                    margin-left: 10px;
+                }
+            }
+            .i1{background-image: url(../img/experience_i6.jpg);}
+            .i2{background-image: url(../img/experience_i4.jpg);}
+            .i3{background-image: url(../img/experience_i2.jpg);}
+            .i4{background-image: url(../img/index_exp.png);}
+            .i5{background-image: url(../img/experience_i1.jpg);}
+            .i6{background-image: url(../img/experience_i5.jpg);}
+        }
+    }
+}
+
+div.ct02{
+    background-color: #4f57a1;
+    padding-top: 0;
+    overflow: visible;
+    section{
+        flex-direction: row-reverse;
+        margin-top: 0;
+        // outline: 1px solid #fff;
+        .image{
+            height: 560px;
+            background-color: #ccc;
+            margin-top: -80px;
+            border-radius: 15px;
+            background-image: url(../img/experience_ct02_i.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .texts{
+            padding-top: 120px;
+            text-align: right;
+        }
+    }
+}
+div.ct03{
+    padding-top: 120px;
+    height: 800px;
+    background-image: url(../img/experience_ct03_bgi.jpg);
+    section{
+        margin-top: 0;
+        .texts{
+            width: calc(100% - 20px);
+            p{
+                text-shadow: 2px 2px 5px #fff;
+            }
+        }
+    }
+}
+div.ct04{
+    background-color: #4f57a1;
+    padding-top: 0;
+    overflow: visible;
+    section{
+        margin-top: 0;
+        .image{
+            height: 560px;
+            background-color: #ccc;
+            margin-top: -80px;
+            border-radius: 15px;
+            background-image: url(../img/experience.ct04_i.png);
+        }
+        .texts{
+            padding-top: 120px;
+        }
+    }
+}
+div.ftrWrap{
+    background-image: url(../img/sub4_footer_i.jpg);
+    background-size: cover;
+    .btn{
+        line-height: 40px;
+            width: 160px;
+            height: 40px;
+            text-align: center;
+            font-family: 'Neoneon';
+            text-transform: uppercase;
+            font-size: 18px;
+            background-color: #07175f;
+            border: 0;
+            border-radius: 5px;
+            box-shadow:
+                1px 1px 1px #fff,
+                0 0 10px,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e;
+            color: #fff;
+
+            &:hover {
+                color: #facb0e;
+            }
+        margin: 0 auto;
+    }
+}

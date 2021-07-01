@@ -1,0 +1,154 @@
+/*sub2.css*/
+
+/*메인*/
+div.mainImg{
+    height: 480px;
+    background-image: url(../img/sub2_main%20image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*the story of legend*/
+div.story{}
+div.story>.header{
+    text-align: center;
+}
+div.story>.section{}
+div.story>.section>.article{
+    width: 1060px; margin: 0 auto;
+    margin-top: 80px;
+}
+div.story>.section>.article:nth-of-type(1){margin-top: 0;}
+div.story>.section>.article>.image{
+    height: 360px;
+}
+div.story>.section>.article>.i1{
+    background-image: url(../img/sub2_content1_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.story>.section>.article>.i2{
+    background-image: url(../img/sub2_content1_i2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.story>.section>.article>.i3{
+    background-image: url(../img/sub2_content1_i3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+div.story>.section>.article>.segment{}
+div.story>.section>.article>.segment>div{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    float: left;
+}
+div.story>.section>.article:nth-child(2)>.segment>div{
+    float: right;
+}
+div.story>.section>.article:nth-child(2)>.segment>.history{
+    padding-left: 160px;
+}
+div.story>.section>.article>.segment>.year{
+    font-size: 84px; line-height: 80px; color: #000;
+    text-align: center;
+    margin-top: -42px;
+}
+div.story>.section>.article>.segment>.history{
+    float:right; margin-top: 80px;
+}
+div.story>.section>.article>.segment>.history>.p1{}
+div.story>.section>.article>.segment>.history>.p2{
+    margin-top: 40px;
+}
+div.story>.section>.article>.segment>.history h3{
+    font-size: 14px; line-height: 20px;
+}
+div.story>.section>.article>.segment>.history i{
+    color: #0072bc; font-size: 16px; line-height: 20px;
+}
+div.story>.section>.article>.segment>.history p{
+    margin-top: 20px;
+}
+
+
+
+/*the core value of the brand*/
+div.brand{
+    background-color: #000;
+}
+div.brand>.header{
+    text-align: center;
+    color: #fff;
+}
+div.brand>.header>p{
+    width: 700px; height: 80px; overflow: hidden;
+    margin: 0 auto; margin-top: 72px;
+}
+div.brand>.section{
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.brand>.section>.article{
+    width: calc(100% / 6 - 20px);
+    height: 160px; border-radius: 100px; border: 0;
+    float: left; text-align: center; background-color: #ccc;
+    margin: 0 10px; padding-top: 30px;
+}
+div.brand>.section>.article>h3{
+    font-size: 24px; line-height: 40px; font-weight: bold;
+}
+div.brand>.section>.article>.icon{
+    font-size: 72px; line-height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

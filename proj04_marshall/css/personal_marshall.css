@@ -1,0 +1,599 @@
+div.mainWrap {
+  background-image: url();
+  background-color: #798179;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/personal_main_bgi.jpg);
+}
+
+div.mainWrap main {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+div.mainWrap main h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 80px;
+  color: #fff;
+}
+
+div.mainWrap main article {
+  margin-top: 80px;
+  width: 66.66%;
+  margin-left: auto;
+}
+
+div.mainWrap main article .image {
+  height: 560px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/personal_main_mockup.png);
+}
+
+div.mainWrap main .mouse {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.mainWrap main .mouse .mouseIcon {
+  width: 30px;
+  height: 45px;
+  border: 4px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+div.mainWrap main .mouse .mouseIcon .mouseWheel {
+  height: 8px;
+  margin: 2px auto 0;
+  display: block;
+  width: 4px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+          animation: 1.6s ease infinite wheel-up-down;
+}
+
+@-webkit-keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+@keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+div.partic section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+}
+
+div.partic section article {
+  width: calc(25% - 20px);
+}
+
+div.partic section article .progress {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+div.partic section article .progress ul {
+  width: 50%;
+  overflow: hidden;
+}
+
+div.partic section article .progress ul li {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}
+
+div.partic section article .progress .left li {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+div.partic section article .progress .right li {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  margin-left: -100%;
+}
+
+div.partic section article .progress .text {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  background-color: #fff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000;
+}
+
+div.partic section article .progress .text .name {
+  font-family: 'Krona One';
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 35%;
+}
+
+div.partic section article .progress .text .num {
+  font-family: 'Krona One';
+  font-size: 16px;
+  line-height: 40px;
+}
+
+div.design section .artGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.design section .artGroup article {
+  width: calc(33.33% - 20px);
+  background-position: center;
+  background-size: center;
+}
+
+div.design section .artGroup article .texts h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  line-height: 200px;
+}
+
+div.design section .artGroup .art1 {
+  background-image: url(../img/keyhole-1209014_640.jpg);
+}
+
+div.design section .artGroup .art1 .texts h4 {
+  color: #fff;
+}
+
+div.design section .artGroup .art2 {
+  background-image: url(../img/piano-349928_640.jpg);
+}
+
+div.design section .artGroup .art3 {
+  background-image: url(../img/workshop-4524838_640.jpg);
+}
+
+div.design section .artGroup .art3 .texts h4 {
+  color: #fff;
+}
+
+div.design section article .texts {
+  text-align: center;
+}
+
+div.design section article .texts h4 {
+  font-size: 24px;
+  line-height: 80px;
+  font-weight: 700;
+}
+
+div.design section article .texts h5 {
+  color: #ffcc66;
+  font-size: 18px;
+}
+
+div.design section article .texts p {
+  margin-top: 20px;
+}
+
+div.keyword section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.keyword section article {
+  width: 33.33%;
+  text-align: center;
+}
+
+div.keyword section article h4 {
+  font-size: 24px;
+  line-height: 40px;
+  color: #754c00;
+}
+
+div.trends section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.trends section article {
+  width: calc(50% - 20px);
+  text-align: center;
+}
+
+div.trends section article .image {
+  height: 240px;
+  background-size: cover;
+}
+
+div.trends section article .texts h4 {
+  font-size: 24px;
+  line-height: 40px;
+  color: #754c00;
+}
+
+div.trends section article .i1 {
+  background-image: url(../img/personal_trends_i4.gif);
+  background-position: center;
+}
+
+div.trends section article .i2 {
+  background-image: url(../img/personal_trend_i2.jpg);
+}
+
+div.trends section article .i3 {
+  margin-top: 40px;
+  background-image: url(../img/personal_trend_i.jpg);
+}
+
+div.colorSystem section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.colorSystem section article {
+  width: calc(33.33% - 20px);
+}
+
+div.colorSystem section article .colorBox {
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+}
+
+div.colorSystem section article .cb1 {
+  background-color: #000000;
+}
+
+div.colorSystem section article .cb2 {
+  background-color: #754c00;
+}
+
+div.colorSystem section article .cb3 {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+div.colorSystem section article .colorName {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 60%;
+  height: 60px;
+  font-size: 18px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+div.colorSystem section article .cn1 {
+  color: #000000;
+}
+
+div.colorSystem section article .cn2 {
+  color: #754c00;
+}
+
+div.colorSystem section article .cn3 {
+  color: #002157;
+}
+
+div.typoSystem section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.typoSystem section article h4 {
+  width: 50%;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+}
+
+div.typoSystem section article ul {
+  padding: 40px 0;
+  width: 50%;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+div.typoSystem section article ul li {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+div.typoSystem section article ul li:nth-of-type(1) {
+  font-weight: 300;
+}
+
+div.typoSystem section article ul li:nth-of-type(3) {
+  font-weight: 700;
+}
+
+div.typoSystem section article ul li:nth-of-type(5) {
+  text-transform: uppercase;
+}
+
+div.web section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.web section article {
+  width: calc(50% - 20px);
+  height: 760px;
+  position: relative;
+}
+
+div.web section article header {
+  width: 100%;
+}
+
+div.web section article .texts {
+  margin-top: 80px;
+}
+
+div.web section article .gridSystem {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+}
+
+div.web section article .gridSystem .gridView {
+  width: calc(100% / 3 * 2 - 20px);
+  height: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: auto;
+  background-image: url(../img/personal_webGrid.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+div.web section article .gridSystem h4 {
+  text-align: right;
+}
+
+div.web section .ovgrid {
+  width: calc(50% - 20px);
+}
+
+div.web section .ovgrid .image {
+  width: calc((100vw - 100%) / 2 + 100%);
+  height: 760px;
+  background-image: url(../img/web_Mockup.png);
+  background-position: 0 0;
+  background-size: cover;
+}
+
+div.tablet section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+div.tablet section article {
+  width: calc(50% - 20px);
+  height: 640px;
+  position: relative;
+}
+
+div.tablet section article header {
+  width: 100%;
+}
+
+div.tablet section article .texts {
+  margin-top: 80px;
+}
+
+div.tablet section article .gridSystem {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+
+div.tablet section article .gridSystem .gridView_1 {
+  width: calc(100% / 6 * 3 - 20px);
+  height: 200px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-image: url(../img/personal_tab_Grid1.jpg);
+  background-size: cover;
+  background-position: center 0;
+}
+
+div.tablet section article .gridSystem .gridView_2 {
+  width: calc(100% / 6 * 2 - 20px);
+  height: 240px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-image: url(../img/personal_tab_Grid2.jpg);
+  background-size: cover;
+  background-position: center 0;
+}
+
+div.tablet section article .gridSystem h4 {
+  width: 100%;
+  text-align: center;
+}
+
+div.tablet section .ovgrid {
+  width: calc(50% - 20px);
+  direction: rtl;
+}
+
+div.tablet section .ovgrid .image {
+  width: calc((100vw - 100%) / 2 + 100%);
+  height: 640px;
+  background-image: url(../img/tab_Mockup.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.mobile section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.mobile section article {
+  width: calc(50% - 20px);
+  height: 640px;
+  position: relative;
+}
+
+div.mobile section article header {
+  width: 100%;
+}
+
+div.mobile section article .texts {
+  margin-top: 80px;
+}
+
+div.mobile section article .gridSystem {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+div.mobile section article .gridSystem .gridView {
+  width: calc(100% / 6 * 2 - 60px);
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: auto;
+  background-image: url(../img/personal_mobile_Grid2.jpg);
+  background-size: cover;
+}
+
+div.mobile section article .gridSystem h4 {
+  text-align: right;
+}
+
+div.mobile section .ovgrid {
+  width: calc(50% - 20px);
+}
+
+div.mobile section .ovgrid .image {
+  width: calc((100vw - 100%) / 2 + 100%);
+  height: 640px;
+  background-image: url(../img/mobile_Mockup.png);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.ftrWrap {
+  padding: 80px;
+  background-color: #000;
+  background-position: bottom;
+}
+
+div.ftrWrap .preView {
+  font-size: 16px;
+  line-height: 40px;
+  width: 160px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=personal_marshall.css.map */

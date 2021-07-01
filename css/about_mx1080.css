@@ -1,0 +1,37 @@
+div.mainWrap main .leftText h3 {
+  font-size: 36px;
+}
+
+div.swot section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 0;
+}
+
+div.swot section article {
+  width: calc(50% - 20px);
+}
+
+div.swot section article:nth-of-type(2) ~ article {
+  margin-top: 40px;
+}
+
+div.myskill section .myImg .image {
+  height: 680px;
+  background-position: center;
+}
+
+div.like section .artGroup article {
+  height: 240px;
+}
+
+div.like section article {
+  height: 240px;
+}
+/*# sourceMappingURL=about_mx1080.css.map */

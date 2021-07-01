@@ -1,0 +1,410 @@
+@import url('../../css/all.css');
+/*인터넷이 연결되어 있는 상태*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700&display=swap');
+/*인터넷이 연결되지 않은 상태*/
+@import url(xeicon.css);
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    src: url(../fonts/NotoSansKR-Thin.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    src: url(../fonts/NotoSansKR-Light.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    src: url(../fonts/NotoSansKR-Medium.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    src: url(../fonts/NotoSansKR-Bold.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    src: url(../fonts/NotoSansKR-Black.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 300;
+    src: url(../fonts/NotoSerifKR-Light.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 500;
+    src: url(../fonts/NotoSerifKR-Medium.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 700;
+    src: url(../fonts/NotoSerifKR-Bold.otf);
+}
+body{
+    background-color: #fff;
+    font-family: 'Noto Sans KR'; font-weight: 300;
+    font-size: 14px; line-height: 20px; color: #555;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Sans KR';
+}
+
+button{
+    border: 0;
+}
+/*헤더*/
+div.hdrWrap{
+    background-color: #000;
+}
+div.hdrWrap header{
+    padding: 20px 0;
+    width: 90%; max-width: 1440px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+div.hdrWrap header h1{
+    width: 160px; height: 40px;
+    
+}
+div.hdrWrap header nav{
+    display: flex;
+}
+div.hdrWrap header nav h2{
+    font-size: 32px; line-height: 40px;
+    margin-left: 10px;
+}
+
+div.navWrap{
+    background-color: rgba(129, 114, 114,0.5);
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    
+}
+
+div.navWrap nav{
+    width: 90%; max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+@media (max-width:780px) {
+    div.navWrap nav{
+        padding: 40px 0px;
+    }
+}
+
+
+div.navWrap nav ul li{
+    font-size: 16px; line-height: 40px; font-weight: 300;
+    text-shadow: none;
+    color: #555; 
+}
+div.navWrap nav ul li:nth-of-type(1){
+    font-size: 18px; line-height: 40px; font-weight: 700;
+    color: #fff;
+}
+div.navWrap nav ul li:nth-of-type(1):hover{
+    text-shadow: 2px 3px 2px #000;
+}
+@media (max-width:420px) {
+    div.navWrap nav{
+        width: 90%; max-width: 1440px;
+        margin: 0 auto;
+       display: block;
+    }
+}
+div.navWrap nav ul .o{
+    color: #fff; 
+}
+div.navWrap nav ul li:hover{
+    color: rgb(207, 255, 94); 
+    text-shadow: 2px 3px 3px #000;
+}
+@media (max-width:420px){
+    div.navWrap nav ul li:nth-of-type(1)~ li{
+        display: none;
+    }
+}
+div.main{
+    background-color: #999;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+div.main .imgview{
+   height: calc(100vh - 100px);
+}
+div.main .imgview .imgGroup{
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+div.main .imgview .imgGroup .image{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+div.main .imgview .imgGroup .i1{
+    
+
+}
+div.main .imgview .imgGroup .i2{
+   
+}
+div.main .imgview .imgGroup .i3{
+   
+}
+div.main .imgview .imgGroup .i4{
+   
+}
+
+div.main .texts{
+    position:absolute;
+    margin:auto;
+    height: 240px;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+div.main .texts .pview{
+    height: 240px;
+    overflow: hidden;
+    /* outline: 2px solid #fff; */
+}
+div.main .texts .pview .pGroup{
+    position: relative;
+}
+div.main .texts .pview .pGroup p{
+    font-weight: 700; font-size: 48px; line-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    text-align: center;
+    
+}
+div.main .texts .pview .pGroup p span{
+
+}
+
+div.main .pageNav{
+    position: absolute;
+    width: 80px;
+    bottom: 20px;
+    margin: auto;
+    right: 0; left: 0;
+}
+div.main .pageNav ul{
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+div.main .pageNav ul li{
+    width: 14px; height: 14px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+div.main .pageNav .viewed{
+    width: 28px;
+}
+
+div.main .texts p{
+    font-weight: 700; font-size: 48px; line-height: 240px;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width:420px){
+    div.main{
+        height: 70vh;
+    }
+    div.main .texts p{
+        font-size: 36px; line-height: 40px;
+    }
+}
+
+/*콘텐츠*/
+div.content{
+    padding: 160px 0;
+}
+@media (max-width:780px){
+    div.content{
+        padding: 120px 0;
+    }
+}
+div.content header{
+    width: 90%; max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.content header h3{
+   font-size: 24px; font-weight: 700; color: #000; line-height: 80px;
+}
+div.content header p{
+    color: #000;
+}
+div.content section{
+    width: 90%; max-width: 1440px;
+    margin: 0 auto; 
+    margin-top: 80px;
+}
+div.content section h4{
+    
+}
+div.content section h5{
+    
+}
+div.content section p{
+    
+}
+div.content section nav{
+    
+}
+div.content .more{
+width: 160px; height: 40px;
+background-color: black;
+color: #fff; font-weight: 700;
+border-radius: 0;
+cursor: pointer;
+line-height: 40px;
+margin: 0 auto;
+}
+
+
+
+/*배너(콘텐츠에서 헤더가 없는 상태)*/
+div.banner{}
+div.banner section{
+    width: 90%; max-width: 1440px;
+    margin: 0 auto; 
+}
+
+/* banner lastB */
+div.lastB{
+    display: flex;
+}
+div.lastB article{
+    height: 360px;
+    width: 33.33%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+}
+@media (max-width:780px) {
+    div.lastB article{
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+div.lastB article h3{
+    line-height: 40px; font-size: 24px; font-weight: 700; color: #fff;;
+}
+div.lastB article .btn{
+    width: 160px; height: 40px;
+    line-height: 40px;
+    background-color: black;
+    color: #fff; font-weight: 700;
+    border-radius: 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+@media (max-width:420px){
+    div.lastB article{
+        height: 160px;}
+    div.lastB article h3{
+        font-size: 16px;
+    }
+    div.lastB article .btn{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+
+/*footer*/
+div.ftrWrap{
+    margin-top: 120px;
+    background: #000;
+    color: #fff;
+}
+div.ftrWrap footer{
+    width: 90%; max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+div.ftrWrap footer .snsbox{
+    width: calc(66.66% - 20px);
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -140px;
+}
+div.ftrWrap footer .snsbox h1{
+    width: 200px; height: 40px;
+    margin: 0 auto;
+}
+div.ftrWrap footer .snsbox .sns{
+    font-size: 32px; color: #000; line-height: 40px;
+    margin-top: 40px;
+}
+div.ftrWrap footer .snsbox .sns i{
+    margin: 0 20px;
+}
+div.ftrWrap footer .ftrLeft{
+    margin-top: 40px;
+}
+div.ftrWrap footer .ftrLeft address:nth-of-type(2){
+    margin-top: 40px;
+}
+
+div.ftrWrap footer .ftrRight{
+    font-size: 32px;  line-height: 40px;
+    text-align: right;
+}
+div.ftrWrap footer .ftrRight i{
+    margin: 0 10px;
+}
+@media(max-width:420px){
+    div.ftrWrap footer .snsbox{
+        width: 80%;
+    }
+    div.ftrWrap footer .snsbox .sns i{
+        margin: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

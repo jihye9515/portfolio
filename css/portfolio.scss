@@ -1,0 +1,154 @@
+body{
+    overflow: hidden;
+}
+div.portfolio{
+    padding: 0;
+   
+    header{
+        h3{
+            font-family: 'Neoneon';
+            font-size: 72px;
+            line-height: 80px;
+            color: #facb0e;
+            text-shadow: 1px -1px 1px #fff,
+                1px 1px 1px #fff,
+                0 0 10px,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e,
+                0 0 10px #facb0e;
+            animation: flicker_yello 2.5s 1;
+        }
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0;
+        .texts{
+            padding-top: 20px;
+            width: calc(50% - 20px);
+            // outline: 1px solid #999;
+            text-align: center;
+            .hNav{
+                margin-top: 20px;
+                button{
+                    background-color: transparent;
+                        border: 0;
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 auto;
+                        font-size: 24px;
+                        color: #fff;
+                }
+                .hView{
+                    height: 40px;
+                    overflow: hidden;
+                    // outline: 1px solid #fff;
+                    hGroup{
+                        position: relative;
+                        h4{
+                            font-family: 'malgun'; font-size: 18px;
+                        }
+                    }
+                }
+            }
+            .pageNav{
+                font-size: 12px; line-height: 40px;
+                color: #999;
+                margin-top: 20px;
+                span{
+                    font-size: 16px; line-height: 40px;
+                    color: #fff;
+                }
+            }
+            .ulView{
+                height: 100px;
+                // outline: 1px solid hotpink;
+                overflow: hidden;
+                .ulGroup{
+                    position: relative;
+                    ul{
+                        li{
+                            font-size: 14px; line-height: 20px;
+                            &:nth-of-type(1){
+                                font-size: 18px; line-height: 40px; font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+            .prevImgView{
+                height: 80px;
+                overflow: hidden;
+                margin-top: 10px;
+                .prevImgGroup{
+                    position: relative;
+                    .prevImg{
+                        height: 80px;
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+                    .pi1{background-image: url(../img/portfolio_prevImg_marshall.png);}
+                    .pi2{background-image: url(../img/portfolio_prevImg_cnp.png);}
+                    .pi3{background-image: url(../img/portfolio_prevImg_sejong.png);}
+                    .pi4{background-image: url(../img/portfolio_prevImg_jeep.png);}
+                }
+            }
+            .btns{
+                margin-top: 20px;
+                a{
+                    width: 140px; height: 40px;
+                    // border: 1px solid #fff;
+                    border-radius: 10px;
+                    text-transform: uppercase;
+                    color: #000; 
+                    background-color: #fff;
+                    margin: 0 10px;
+                    padding: 10px 40px;
+                    line-height: 40px;
+                    border: none;
+                    border-radius: 45px;
+                    // box-shadow: 0px 0px 1px #5f5f5f, 0px 0px 0px 4px #ecf0f3;
+                    box-shadow: 3px 3px 6px #b1b1b1, 0px 0px 4px #fff; ;
+                    transition: all 0.3s ease 0s;
+                    cursor: pointer;
+                    outline: none;
+  
+                    &:hover{
+                        box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 0px 10px 15px rgba(255, 241, 46, 0.904);
+                        color: #000;
+                        font-size: 16px;
+                    }
+                    &:active{
+                        background-color: #5570e9bb
+                    }
+                    
+                }
+            }
+        }
+        .project{
+            width: 50%;
+            // outline: 1px solid #999;
+            .projectView{
+                width: calc((100vw - 200%) / 2 + 100%);
+                background-color: #fff;
+                height: calc(100vh - 80px);
+                border-radius: 30px 0px 0px 0px;
+                overflow: hidden;
+                .imgGroup{
+                    height: 400%;
+                    .image{
+                        height: 25%;
+                        background-position: 0 0;
+                        background-size: cover;
+                    }
+                    .i1{background-image: url(../img/portfolio_i_marshall.png);}
+                    .i2{background-image: url(../img/portfolio_i_cnp.png);}
+                    .i3{background-image: url(../img/portfolio_i_sejong.jpg);}
+                    .i4{background-image: url(../img/portfolio_i_jeep.jpg);}
+                }
+            }
+        }
+    }
+}

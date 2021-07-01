@@ -1,0 +1,216 @@
+div.mainWrap {
+  background-image: url(../img/exprience_main_i1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+div.mainWrap main {
+  height: 720px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+div.mainWrap main header h3 {
+  color: #facb0e;
+  text-shadow: 1px -1px 1px #facd02, 1px 1px 1px #000, 0 0 10px, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e;
+  -webkit-animation: flicker_yello 2.5s 1;
+          animation: flicker_yello 2.5s 1;
+}
+
+div.mainWrap main header p {
+  line-height: 40px;
+  text-align: right;
+}
+
+div.content section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.content section .texts {
+  width: calc(50% - 20px);
+}
+
+div.content section .texts h3 {
+  font-family: 'Krona One';
+  font-size: 36px;
+  line-height: 60px;
+}
+
+div.content section .texts p {
+  margin-top: 40px;
+}
+
+div.content section .image {
+  width: calc(50% - 20px);
+}
+
+div.ct01 {
+  height: 1130px;
+}
+
+div.ct01 section {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.ct01 section .rightImg {
+  width: calc(50% - 20px);
+}
+
+div.ct01 section .rightImg .imgGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.ct01 section .rightImg .mt20 {
+  margin-top: 20px;
+}
+
+div.ct01 section .rightImg .image {
+  width: calc(33.33% - 20px);
+  height: 200px;
+  background-color: #161344;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+div.ct01 section .rightImg .image:hover {
+  width: calc(33.33% - 10px);
+  height: 210px;
+  margin-left: 10px;
+}
+
+div.ct01 section .rightImg .i1 {
+  background-image: url(../img/experience_i6.jpg);
+}
+
+div.ct01 section .rightImg .i2 {
+  background-image: url(../img/experience_i4.jpg);
+}
+
+div.ct01 section .rightImg .i3 {
+  background-image: url(../img/experience_i2.jpg);
+}
+
+div.ct01 section .rightImg .i4 {
+  background-image: url(../img/index_exp.png);
+}
+
+div.ct01 section .rightImg .i5 {
+  background-image: url(../img/experience_i1.jpg);
+}
+
+div.ct01 section .rightImg .i6 {
+  background-image: url(../img/experience_i5.jpg);
+}
+
+div.ct02 {
+  background-color: #4f57a1;
+  padding-top: 0;
+  overflow: visible;
+}
+
+div.ct02 section {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 0;
+}
+
+div.ct02 section .image {
+  height: 560px;
+  background-color: #ccc;
+  margin-top: -80px;
+  border-radius: 15px;
+  background-image: url(../img/experience_ct02_i.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.ct02 section .texts {
+  padding-top: 120px;
+  text-align: right;
+}
+
+div.ct03 {
+  padding-top: 120px;
+  height: 800px;
+  background-image: url(../img/experience_ct03_bgi.jpg);
+}
+
+div.ct03 section {
+  margin-top: 0;
+}
+
+div.ct03 section .texts {
+  width: calc(100% - 20px);
+}
+
+div.ct03 section .texts p {
+  text-shadow: 2px 2px 5px #fff;
+}
+
+div.ct04 {
+  background-color: #4f57a1;
+  padding-top: 0;
+  overflow: visible;
+}
+
+div.ct04 section {
+  margin-top: 0;
+}
+
+div.ct04 section .image {
+  height: 560px;
+  background-color: #ccc;
+  margin-top: -80px;
+  border-radius: 15px;
+  background-image: url(../img/experience.ct04_i.png);
+}
+
+div.ct04 section .texts {
+  padding-top: 120px;
+}
+
+div.ftrWrap {
+  background-image: url(../img/sub4_footer_i.jpg);
+  background-size: cover;
+}
+
+div.ftrWrap .btn {
+  line-height: 40px;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Neoneon';
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #07175f;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px #fff, 0 0 10px, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e;
+          box-shadow: 1px 1px 1px #fff, 0 0 10px, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e;
+  color: #fff;
+  margin: 0 auto;
+}
+
+div.ftrWrap .btn:hover {
+  color: #facb0e;
+}
+/*# sourceMappingURL=experience.css.map */

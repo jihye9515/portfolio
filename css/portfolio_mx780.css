@@ -1,0 +1,12 @@
+body {
+  overflow: hidden;
+}
+
+div.portfolio section .texts {
+  width: calc(65% - 20px);
+}
+
+div.portfolio section .project {
+  width: 35%;
+}
+/*# sourceMappingURL=portfolio_mx780.css.map */

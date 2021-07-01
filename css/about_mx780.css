@@ -1,0 +1,18 @@
+div.mainWrap main .leftText h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+div.mainWrap main .rightText {
+  width: 40%;
+  bottom: 0;
+}
+
+div.like section .artGroup article {
+  height: 160px;
+}
+
+div.like section article {
+  height: 160px;
+}
+/*# sourceMappingURL=about_mx780.css.map */

@@ -1,0 +1,200 @@
+body {
+  overflow: hidden;
+}
+
+div.portfolio {
+  padding: 0;
+}
+
+div.portfolio header h3 {
+  font-family: 'Neoneon';
+  font-size: 72px;
+  line-height: 80px;
+  color: #facb0e;
+  text-shadow: 1px -1px 1px #fff, 1px 1px 1px #fff, 0 0 10px, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e, 0 0 10px #facb0e;
+  -webkit-animation: flicker_yello 2.5s 1;
+          animation: flicker_yello 2.5s 1;
+}
+
+div.portfolio section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 0;
+}
+
+div.portfolio section .texts {
+  padding-top: 20px;
+  width: calc(50% - 20px);
+  text-align: center;
+}
+
+div.portfolio section .texts .hNav {
+  margin-top: 20px;
+}
+
+div.portfolio section .texts .hNav button {
+  background-color: transparent;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+}
+
+div.portfolio section .texts .hNav .hView {
+  height: 40px;
+  overflow: hidden;
+}
+
+div.portfolio section .texts .hNav .hView hGroup {
+  position: relative;
+}
+
+div.portfolio section .texts .hNav .hView hGroup h4 {
+  font-family: 'malgun';
+  font-size: 18px;
+}
+
+div.portfolio section .texts .pageNav {
+  font-size: 12px;
+  line-height: 40px;
+  color: #999;
+  margin-top: 20px;
+}
+
+div.portfolio section .texts .pageNav span {
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+}
+
+div.portfolio section .texts .ulView {
+  height: 100px;
+  overflow: hidden;
+}
+
+div.portfolio section .texts .ulView .ulGroup {
+  position: relative;
+}
+
+div.portfolio section .texts .ulView .ulGroup ul li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div.portfolio section .texts .ulView .ulGroup ul li:nth-of-type(1) {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+div.portfolio section .texts .prevImgView {
+  height: 80px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+div.portfolio section .texts .prevImgView .prevImgGroup {
+  position: relative;
+}
+
+div.portfolio section .texts .prevImgView .prevImgGroup .prevImg {
+  height: 80px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.portfolio section .texts .prevImgView .prevImgGroup .pi1 {
+  background-image: url(../img/portfolio_prevImg_marshall.png);
+}
+
+div.portfolio section .texts .prevImgView .prevImgGroup .pi2 {
+  background-image: url(../img/portfolio_prevImg_cnp.png);
+}
+
+div.portfolio section .texts .prevImgView .prevImgGroup .pi3 {
+  background-image: url(../img/portfolio_prevImg_sejong.png);
+}
+
+div.portfolio section .texts .prevImgView .prevImgGroup .pi4 {
+  background-image: url(../img/portfolio_prevImg_jeep.png);
+}
+
+div.portfolio section .texts .btns {
+  margin-top: 20px;
+}
+
+div.portfolio section .texts .btns a {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  margin: 0 10px;
+  padding: 10px 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 45px;
+  -webkit-box-shadow: 3px 3px 6px #b1b1b1, 0px 0px 4px #fff;
+          box-shadow: 3px 3px 6px #b1b1b1, 0px 0px 4px #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+div.portfolio section .texts .btns a:hover {
+  -webkit-box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 0px 10px 15px rgba(255, 241, 46, 0.904);
+          box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 0px 10px 15px rgba(255, 241, 46, 0.904);
+  color: #000;
+  font-size: 16px;
+}
+
+div.portfolio section .texts .btns a:active {
+  background-color: #5570e9bb;
+}
+
+div.portfolio section .project {
+  width: 50%;
+}
+
+div.portfolio section .project .projectView {
+  width: calc((100vw - 200%) / 2 + 100%);
+  background-color: #fff;
+  height: calc(100vh - 80px);
+  border-radius: 30px 0px 0px 0px;
+  overflow: hidden;
+}
+
+div.portfolio section .project .projectView .imgGroup {
+  height: 400%;
+}
+
+div.portfolio section .project .projectView .imgGroup .image {
+  height: 25%;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+div.portfolio section .project .projectView .imgGroup .i1 {
+  background-image: url(../img/portfolio_i_marshall.png);
+}
+
+div.portfolio section .project .projectView .imgGroup .i2 {
+  background-image: url(../img/portfolio_i_cnp.png);
+}
+
+div.portfolio section .project .projectView .imgGroup .i3 {
+  background-image: url(../img/portfolio_i_sejong.jpg);
+}
+
+div.portfolio section .project .projectView .imgGroup .i4 {
+  background-image: url(../img/portfolio_i_jeep.jpg);
+}
+/*# sourceMappingURL=portfolio.css.map */

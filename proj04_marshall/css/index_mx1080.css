@@ -1,0 +1,119 @@
+
+/* navWrap */
+div.navWrap nav{
+    padding: 40px 0px;
+}
+
+/* content 1 / Marshall Amplification */
+
+div.msAmpli section{
+    display: block;
+}
+div.msAmpli section .artGroup{
+    width: 100%;
+}
+div.msAmpli section .artGroup article{
+    height: 240px;
+}
+
+/* banner */
+div.b1{
+    height: 400px;
+    background-image: url(../img/index_banner\ 1_i.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+/* content 2 / BRAND Marshall */
+div.brand section{
+}
+div.brand section .leftArt{
+    width: calc(50% - 20px);
+    padding-top: 0;
+}
+div.brand section .leftArt .imgArea{
+    display: none;
+}
+div.brand section .rightArt{
+    width: calc(50% - 20px);
+}
+div.brand section .rightArt .mnImg{
+    height: 500px;
+}
+div.brand section .rightArt .thumImg .image{
+    height: 100px;
+}
+
+/* content 3 , 5 / ct main image */
+
+div.ctMnImg section article{
+    height: 320px;
+}
+div.ctMnImg section .texts{
+    width:80%;
+    padding: 40px 60px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -100px;
+    outline: 1px solid #ccc;
+}
+/*  banner 1  */
+div.banner section{
+    height: 280px;
+    display: flex;
+    align-items: center;
+}
+
+/* content 7 / LATEST STORIES */
+
+
+/* content 8 / Marshall RECORDS */
+div.records section .image{
+    width: calc(50% - 20px);
+    height: 420px;
+}
+div.records section .texts{
+    width: calc(50% - 20px);
+    padding-left: 20px
+}
+
+
+/* content 4 , 6 / 마샬 스피커 아코디언 레이아웃 , 마샬 헤드폰 아코디언 레이아웃*/
+
+div.marshall section .artGroup{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 520px;
+    
+}
+div.marshall section .artGroup article{
+    height: 520px;
+}
+div.marshall section .artGroup article:nth-of-type(5){
+    background-color: #000;
+    display: none;
+}
+div.marshall section .artGroup article img{
+    height: 300px;
+}
+div.ct04 section .artGroup{
+    flex-direction: row-reverse;
+    margin-left: 0;
+}
+div.ct04 section .name{
+    position: absolute;
+    top: 40px; right: 0px;
+}
+
+div.ct06 section .name{
+    position: absolute;
+    top: 40px; left: 0px;
+}
+
+div.marshall section .name p{
+    font-weight: 700; font-size: 48px; line-height: 50px;
+}

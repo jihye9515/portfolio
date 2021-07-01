@@ -1,0 +1,75 @@
+div.mnWrap{
+    background-image: none;
+}
+
+div.mnWrap main header .btnGroup{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+div.mnWrap main article figure{
+    width: 90%;
+}
+div.mnWrap main article header {
+    width: 100%;  
+    text-align: center;
+    margin-left: 0;
+}
+
+div.content header h3{
+    width: 90%;
+} 
+div.ct1 section article{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+div.ct1 section article:nth-of-type(2){
+    flex-direction: column-reverse;
+}
+div.ct1 section article figure{
+    width: 100%;
+    margin-top: 20px;
+}
+div.ct1 section article .texts{
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+
+div.bestTip section{
+    display: block;
+}
+div.bestTip section article{
+    width: 100%;
+    text-align: center;
+}
+div.bestTip section article .texts{
+    text-align: center;
+}
+
+
+
+div.b1 section .texts{
+    width: 100%;
+}
+div.b2 section .texts{
+    width: 100%;
+}
+div.b3 section .texts{
+    width: 100%;
+}
+
+
+
+div.other section .artContianer .artGroup {
+    width: calc(25% * 16 - 20px);
+}
+div.ftrWrap footer{
+    display: block;
+}
+div.ftrWrap footer .sns{
+    width: 100%;
+    padding-top: 0;
+}

@@ -1,0 +1,144 @@
+/*sub3_style.css*/
+
+/* header */
+div.hdrWrap{
+    position: static;
+}
+div.hdrWrap nav{
+    display: none;
+}
+
+/* content Magazine */
+div.magazine{}
+div.magazine .sect1{}
+div.magazine .sect1 article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.magazine .sect1 article figure{
+    width: calc((50% / 6) * 5 - 20px); height: 400px;
+    background-color: #ccc;
+    margin-left: 80px;
+    background-image: url(../img/sub3_magazine_i1.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+div.magazine .sect1 article .texts{
+    width: calc(50% - 20px);
+}
+div.magazine .sect1 article .texts h6{
+    color: #69f; font-size: 9px;
+}
+div.magazine .sect1 article .texts h5{
+    margin-top: 60px;
+}
+div.magazine .sect1 article .texts h3{}
+div.magazine .sect1 article .texts p{
+    margin-top: 40px;
+}
+div.magazine .sect2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div.magazine .sect2 article{
+    width: calc(33.33% - 20px);
+}
+div.magazine .sect2 article figure{
+    height: 240px; 
+}
+div.magazine .sect2 article .i2{
+    background-image: url(../img/sub3_magazine_i2.png);
+    background-position: 100%;
+    background-size: cover;
+}
+div.magazine .sect2 article .i3{
+    background-image: url(../img/sub3_magazine_i3.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+div.magazine .sect2 article .i4{
+    background-image: url(../img/sub3_magazine_i4.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+div.magazine .sect2 article .texts{
+    overflow: hidden;
+    padding-top: 20px;
+}
+div.magazine .sect2 article .texts h3{
+    font-size: 16px; color: #666; line-height: 40px;
+}
+div.magazine .sect2 article .texts h6{
+    color: #69f; font-size: 9px;
+    float: right;
+}
+div.magazine .sect2 footer{
+    margin: 0 auto;
+}
+
+/* content Brand Video */
+div.brandVideo{}
+div.brandVideo section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div.brandVideo section article{
+    width: calc(33.33% - 20px);
+    margin-top: 40px;
+}
+div.brandVideo section article:nth-of-type(1,2,3){
+    margin-top: 0;
+}
+div.brandVideo section article figure{
+    height: 340px;
+    background-position: 100%;
+    background-size: cover;
+}
+div.brandVideo section article .i1{
+    background-image: url(../img/sub3_brandVideo_i1.jpg)
+}
+div.brandVideo section article .i2{
+    background-image: url(../img/sub3_brandVideo_i2.jpg)
+}
+div.brandVideo section article .i3{
+    background-image: url(../img/sub3_brandVideo_i3.jpg)
+}
+div.brandVideo section article .i4{
+    background-image: url(../img/sub3_brandVideo_i4.jpg)
+}
+div.brandVideo section article .i5{
+    background-image: url(../img/sub3_brandVideo_i5.jpg)
+}
+div.brandVideo section article .i6{
+    background-image: url(../img/sub3_brandVideo_i6.jpg)
+}
+div.brandVideo section article .i7{
+    background-image: url(../img/sub3_brandVideo_i7.jpg)
+}
+div.brandVideo section article .i8{
+    background-image: url(../img/sub3_brandVideo_i8.jpg)
+}
+div.brandVideo section article .i9{
+    background-image: url(../img/sub3_brandVideo_i9.jpg)
+}
+div.brandVideo section article .texts{
+    margin-top: 20px;
+}
+div.brandVideo section footer{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

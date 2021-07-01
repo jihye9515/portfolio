@@ -1,0 +1,237 @@
+/*sub3.css*/
+
+/*메인*/
+div.mainImg{
+    height: 480px;
+    background-image: url(../img/sub3_main%20image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    
+
+/*find a store*/
+div.findAstore{}
+div.findAstore>.header{
+    text-align: center;
+}
+div.findAstore>.header>h2{}
+div.findAstore>.header>hr{}
+div.findAstore>.section{}
+div.findAstore>.section>.article{
+    overflow: hidden;
+}
+div.findAstore>.section>.article>.segment{
+    width: calc(50% - 20px);
+    line-height: 40px;
+    float: left;
+    margin: 0 10px;
+    padding: 80px 0;
+}
+div.findAstore>.section>.article>.segment>.place{
+    overflow: hidden;
+}
+div.findAstore>.section>.article>.segment>.place>*{
+    margin: 0 10px; float: left; 
+}
+div.findAstore>.section>.article>.segment>.place>.placeName{
+    width: 70px; height: 40px; text-align: center;
+}
+div.findAstore>.section>.article>.segment>.place>.go{
+    height: 40px; width: 160px; border: 0;
+    background-color: oldlace; text-align: right;
+    padding-right: 10px;
+}
+div.findAstore>.section>.article>.segment i{
+    font-size: 18px;
+}
+div.findAstore>.section>.article>.segment>.store{
+    margin-top: 20px;
+}
+div.findAstore>.section>.article>.segment>.store>*{
+    margin: 0 10px; float: left;
+}
+div.findAstore>.section>.article>.segment>.store>.storeName{
+    width: 70px; height: 40px; text-align: center;
+}
+div.findAstore>.section>.article>.segment>.store>.go{
+     height: 40px; width: 340px; border: 0;
+     background-color: oldlace; text-align: right;
+    padding-right: 10px;
+}
+div.findAstore>.section>.article>.segment>.btn{
+    text-align: right; margin-right: 80px;
+}
+div.findAstore>.section>.article>.segment>.btn>button{
+    height: 40px; width: 160px; border: 0;
+    margin-top: 20px;
+}
+div.findAstore>.section>.article>.image{
+    width: calc(50% - 20px);/*530px;*/
+    height: 320px; background-color: #ccc;
+    float: left;
+    margin: 0 10px;
+    background-image: url(../img/sub3_findAstore_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*jeep press room*/
+div.pressRoom{
+    background-color: #000;
+}
+div.pressRoom>.header{
+    text-align: center;
+}
+div.pressRoom>.section{}
+div.pressRoom>.section>.article{
+    width: calc(25% - 20px);
+    float: left;
+    margin: 0 10px;
+    outline: 1px solid;
+    position: relative;
+}
+div.pressRoom>.section>.article>.image{
+    height: 280px; background-color: antiquewhite;
+}
+div.pressRoom>.section>.article>.segment{
+    padding: 20px 10px;
+    background-color: #fff;   
+}
+div.pressRoom>.section>.article>.segment>h5{
+    font-size: 10px; line-height: 40px;
+}
+div.pressRoom>.section>.article>.segment>p{
+    color: #000; height: 80px;
+}
+div.pressRoom>.section>.article>.btn{
+    position: relative;
+}
+div.pressRoom>.section>.article>.btn>button{
+    background-color: #ff8941;
+    height: 40px; color: #fff;
+    width: 110px; font-size: 18px; line-height: 40px; border: 0;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+    top: -20px;
+}
+div.pressRoom>.section>.article>.i1{
+    background-image: url(../img/sub3_pressRoom_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.pressRoom>.section>.article>.i2{
+     background-image: url(../img/sub3_pressRoom_i2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.pressRoom>.section>.article>.i3{
+     background-image: url(../img/sub3_pressRoom_i3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.pressRoom>.section>.article>.i4{
+    background-image: url(../img/sub3_pressRoom_i4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*jeep brand story*/
+div.brandStory{}
+div.brandStory>.header{
+    text-align: center;
+}
+div.brandStory>.section{
+}
+div.brandStory>.section>.article{
+    overflow: hidden;
+}
+div.brandStory>.section>.article>.artGroup{
+    width: calc(50% - 20px); 
+    float: left;
+    margin: 0 10px;
+}
+div.brandStory>.section>.article>.artGroup>.image{
+    color: #000; text-align: right;
+    background-color: #ccc; padding: 20px;
+}
+div.brandStory>.section>.article>.artGroup>.i1{
+    height: 560px;
+    background-image: url(../img/sub3_brandstory_i1.jpg);
+    background-size: cover;
+    background-position: center;
+}    
+div.brandStory>.section>.article>.artGroup>.i2{
+    height: 640px; margin-top: 20px;
+    background-image: url(../img/sub3_brandstory_i2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.brandStory>.section>.article>.artGroup>.i3{
+    height: 560px; margin-top: 120px;
+    background-image: url(../img/sub3_brandstory_i3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.brandStory>.section>.article>.artGroup>.i4{
+    height: 680px; margin-top: 20px;
+    background-image: url(../img/sub3_brandstory_i4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
